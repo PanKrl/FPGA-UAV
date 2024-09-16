@@ -1,0 +1,9 @@
+18:59:37 **** Incremental Build of configuration Nios II for project gps_prt_7 ****
+make all 
+Info: Building ../gps_prt_7_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../gps_prt_7_bsp/
+[BSP build complete]
+[gps_prt_7 build complete]
+
+18:59:37 Build Finished (took 593ms)
+

@@ -1,0 +1,9 @@
+15:54:09 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+[BSP build complete]
+[PWMCtrl build complete]
+
+15:54:10 Build Finished (took 588ms)
+

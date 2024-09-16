@@ -1,0 +1,46 @@
+//2023/07/05Å@PWMêßå‰
+
+#include "sys/alt_stdio.h"
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+
+int main()
+{
+	  //é¸ä˙ÇÃê›íË
+	IOWR_ALTERA_AVALON_PIO_DATA(CYCLE_BASE,125000);
+        int sw1=0x1;
+        int sw2=0x1;
+        int sw3=0x1;
+        while(1){
+        	sw1=IORD_ALTERA_AVALON_PIO_DATA(SW1_BASE);
+        	if(sw1==0x0){
+        	    IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,116500);//100%
+        	    break;
+        	}
+        }
+        while(1){
+        	if(sw2==0x0){
+        		IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,47000);//0%
+        	    break;
+        	}
+        }
+        while(1){
+            if(sw1==0x0){
+                IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,50475);//5%
+                break;
+            }
+        }
+
+        while(1){
+      	  sw1=IORD_ALTERA_AVALON_PIO_DATA(SW1_BASE);
+      	  sw2=IORD_ALTERA_AVALON_PIO_DATA(SW2_BASE);
+      	  sw3=IORD_ALTERA_AVALON_PIO_DATA(SW3_BASE);
+        	switch(sw3){
+        	case 0x1:
+        		IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,47000);//5%
+
+        	}
+        }
+  return 0;
+}
+

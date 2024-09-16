@@ -1,0 +1,83 @@
+/*
+ * imu_i2c.c
+ *
+ *  Created on: 2023/11/16
+ *      Author: space
+ */
+#include "imu_i2c.h"
+
+u8 TFR_CMD(u8 STA,u8 STO,u8 AD,u8 RW_D){//コマンドの生成
+	u8 cmd=((STA<<9)|(STO<<8)|(AD<<1)|(RW_D));//()で囲ってみた 11/21
+	return cmd;
+}
+
+
+u8 IMU_read(u8 addr){
+	int x=0;
+}
+
+
+u8 _read(u8 buffer,u8 len,u8 stop){
+	int i;
+	u8 recv=RequestFrom(BNO055_ADDR,len);
+	if(recv!=len){
+
+#ifdef DEBUG_SERIAL
+		printf("I2C Device did not receive enough data\n");
+		printf("%d\n",recv);
+#endif
+		return FALSE;
+	}
+	for(i=0;i<len;i++){
+		buffer=IORD_ALT_AVALON_I2C_RX_DATA(I2C_BASE);
+	}
+
+return TRUE;
+}
+
+u8 IMU_write(u8 addr,u8 data){
+	int x=0;
+}
+
+u8 RequestFrom(u8 addr,u8 len){
+	return _RequestFrom(addr,len,0,0,TRUE);
+}
+
+u8 _RequestFrom(u8 addr,u8 len,u8 iaddress,u8 isize,u8 sendStop){
+
+	return 0;
+}
+
+int IMU_begin(void){//IMU通信を始める
+	int timeout=850;
+	while(timeout>0){
+		if(IMU_begin){
+			break;
+		}
+		sleep(10);//retry!
+		timeout-=10;
+	}
+	if(timeout<=0)
+		return FALSE;
+
+	int chip_id=IMU_read(CHIP_ID_ADDR);
+	if(chip_id!=0xa0){
+		sleep(1000);//hold on for boot
+		chip_id=IMU_read(CHIP_ID_ADDR);
+		if(chip_id!=0xa0){
+		return FALSE;//still not
+		}
+	}
+	IMU_write(OPR_MODE_ADDR,CONFIG_MODE);//operation mode>configuration mode
+	IMU_write(SYS_TRIGGER_ADDR,0x20);//
+	usleep(30);
+	while(IMU_read(CHIP_ID_ADDR)!=0xa0){
+		sleep(10);
+	}
+	sleep(50);
+	IMU_write(PWR_MODE_ADDR,NORMAL_MODE);//power mode>normal mode
+	IMU_write(PAGE_ID_ADDR,0);
+}
+
+
+

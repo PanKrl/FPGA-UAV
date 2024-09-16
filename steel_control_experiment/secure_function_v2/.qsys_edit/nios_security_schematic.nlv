@@ -1,0 +1,49 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_security.RAM -pg 1 -lvl 5 -y 1780
+preplace inst nios_security.PWM_IN -pg 1 -lvl 5 -y 840
+preplace inst nios_security.LED1 -pg 1 -lvl 5 -y 130
+preplace inst nios_security.DUTY -pg 1 -lvl 5 -y 740
+preplace inst nios_security -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios_security.PERIOD -pg 1 -lvl 5 -y 1280
+preplace inst nios_security.LED2 -pg 1 -lvl 5 -y 240
+preplace inst nios_security.CLK -pg 1 -lvl 1 -y 1770
+preplace inst nios_security.NIOSII.clock_bridge -pg 1
+preplace inst nios_security.LED3 -pg 1 -lvl 5 -y 340
+preplace inst nios_security.SW -pg 1 -lvl 5 -y 1420
+preplace inst nios_security.LED4 -pg 1 -lvl 5 -y 440
+preplace inst nios_security.LED5 -pg 1 -lvl 5 -y 540
+preplace inst nios_security.PWM_OUT -pg 1 -lvl 5 -y 1040
+preplace inst nios_security.LED6 -pg 1 -lvl 5 -y 640
+preplace inst nios_security.JTAG -pg 1 -lvl 8 -y 1740
+preplace inst nios_security.STOP -pg 1 -lvl 8 -y 1840
+preplace inst nios_security.LED7 -pg 1 -lvl 5 -y 940
+preplace inst nios_security.ID -pg 1 -lvl 8 -y 1580
+preplace inst nios_security.UART -pg 1 -lvl 5 -y 1140
+preplace inst nios_security.NIOSII.reset_bridge -pg 1
+preplace inst nios_security.NIOSII -pg 1 -lvl 4 -y 1200
+preplace inst nios_security.NIOSII.cpu -pg 1
+preplace inst nios_security.LED0 -pg 1 -lvl 5 -y 30
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.pwm_in,(SLAVE)PWM_IN.external_connection) 1 0 5 NJ 870 NJ 870 NJ 870 NJ 870 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.led5,(SLAVE)LED5.external_connection) 1 0 5 NJ 570 NJ 570 NJ 570 NJ 570 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.pwm_out,(SLAVE)PWM_OUT.external_connection) 1 0 5 NJ 1360 NJ 1360 NJ 1360 NJ 1360 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.led6,(SLAVE)LED6.external_connection) 1 0 5 NJ 670 NJ 670 NJ 670 NJ 670 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.led2,(SLAVE)LED2.external_connection) 1 0 5 NJ 270 NJ 270 NJ 270 NJ 270 NJ
+preplace netloc INTERCONNECT<net_container>nios_security</net_container>(SLAVE)LED3.reset,(MASTER)NIOSII.debug_reset_request,(SLAVE)LED5.reset,(SLAVE)JTAG.reset,(SLAVE)PERIOD.reset,(SLAVE)LED6.reset,(SLAVE)LED7.reset,(SLAVE)RAM.reset1,(SLAVE)STOP.reset,(SLAVE)PWM_IN.reset,(SLAVE)LED0.reset,(SLAVE)DUTY.reset,(SLAVE)SW.reset,(SLAVE)LED1.reset,(SLAVE)UART.reset,(SLAVE)ID.reset,(SLAVE)NIOSII.reset,(SLAVE)PWM_OUT.reset,(MASTER)CLK.clk_reset,(SLAVE)LED4.reset,(SLAVE)LED2.reset) 1 1 7 NJ 1800 NJ 1800 810 1880 1540 1390 NJ 1390 NJ 1390 2050
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)LED7.external_connection,(SLAVE)nios_security.led7) 1 0 5 NJ 1340 NJ 1340 NJ 1340 NJ 1340 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.sw,(SLAVE)SW.external_connection) 1 0 5 NJ 1440 NJ 1440 NJ 1440 NJ 1440 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)LED1.external_connection,(SLAVE)nios_security.led1) 1 0 5 NJ 160 NJ 160 NJ 160 NJ 160 NJ
+preplace netloc FAN_OUT<net_container>nios_security</net_container>(SLAVE)UART.irq,(MASTER)NIOSII.irq,(SLAVE)JTAG.irq) 1 4 4 1580 1870 NJ 1790 NJ 1790 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)LED3.external_connection,(SLAVE)nios_security.led3) 1 0 5 NJ 370 NJ 370 NJ 370 NJ 370 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.duty,(SLAVE)DUTY.external_connection) 1 0 5 NJ 770 NJ 770 NJ 770 NJ 770 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)UART.external_connection,(SLAVE)nios_security.uart) 1 0 5 NJ 1380 NJ 1380 NJ 1380 NJ 1380 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.reset,(SLAVE)CLK.clk_in_reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)nios_security.led0,(SLAVE)LED0.external_connection) 1 0 5 NJ 60 NJ 60 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)LED4.external_connection,(SLAVE)nios_security.led4) 1 0 5 NJ 470 NJ 470 NJ 470 NJ 470 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)CLK.clk_in,(SLAVE)nios_security.clk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>nios_security</net_container>(MASTER)CLK.clk,(SLAVE)LED4.clk,(SLAVE)PWM_IN.clk,(SLAVE)LED5.clk,(SLAVE)PWM_OUT.clk,(SLAVE)LED2.clk,(SLAVE)ID.clk,(SLAVE)UART.clk,(SLAVE)NIOSII.clk,(SLAVE)DUTY.clk,(SLAVE)LED3.clk,(SLAVE)STOP.clk,(SLAVE)PERIOD.clk,(SLAVE)LED7.clk,(SLAVE)RAM.clk1,(SLAVE)JTAG.clk,(SLAVE)SW.clk,(SLAVE)LED1.clk,(SLAVE)LED0.clk,(SLAVE)LED6.clk) 1 1 7 NJ 1780 NJ 1780 790 1860 1600 1270 NJ 1270 NJ 1270 2070
+preplace netloc INTERCONNECT<net_container>nios_security</net_container>(SLAVE)LED7.s1,(SLAVE)LED3.s1,(SLAVE)PWM_OUT.s1,(SLAVE)ID.control_slave,(SLAVE)STOP.s1,(SLAVE)PERIOD.s1,(SLAVE)PWM_IN.s1,(MASTER)NIOSII.instruction_master,(SLAVE)SW.s1,(SLAVE)UART.s1,(SLAVE)RAM.s1,(SLAVE)LED6.s1,(MASTER)NIOSII.data_master,(SLAVE)LED5.s1,(SLAVE)NIOSII.debug_mem_slave,(SLAVE)LED2.s1,(SLAVE)JTAG.avalon_jtag_slave,(SLAVE)LED0.s1,(SLAVE)LED1.s1,(SLAVE)DUTY.s1,(SLAVE)LED4.s1) 1 3 5 810 1160 1500 1410 NJ 1410 NJ 1410 2030
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)STOP.external_connection,(SLAVE)nios_security.stop) 1 0 8 NJ 1900 NJ 1900 NJ 1900 NJ 1900 NJ 1900 NJ 1870 NJ 1870 NJ
+preplace netloc EXPORT<net_container>nios_security</net_container>(SLAVE)PERIOD.external_connection,(SLAVE)nios_security.period) 1 0 5 NJ 1840 NJ 1840 NJ 1840 NJ 1840 NJ
+levelinfo -pg 1 0 60 2410
+levelinfo -hier nios_security 70 100 430 770 1200 1630 1880 2010 2250 2400

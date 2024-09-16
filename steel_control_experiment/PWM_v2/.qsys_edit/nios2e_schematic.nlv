@@ -1,0 +1,45 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios2e.RAM -pg 1 -lvl 3 -y 710
+preplace inst nios2e.NIOS2 -pg 1 -lvl 2 -y 600
+preplace inst nios2e.LED1 -pg 1 -lvl 3 -y 1090
+preplace inst nios2e.ID -pg 1 -lvl 3 -y 630
+preplace inst nios2e.LED2 -pg 1 -lvl 3 -y 1290
+preplace inst nios2e.JTAG -pg 1 -lvl 3 -y 890
+preplace inst nios2e.DIP0 -pg 1 -lvl 3 -y 30
+preplace inst nios2e.CYCLE -pg 1 -lvl 3 -y 790
+preplace inst nios2e -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios2e.LED3 -pg 1 -lvl 3 -y 1490
+preplace inst nios2e.DIP1 -pg 1 -lvl 3 -y 230
+preplace inst nios2e.LED4 -pg 1 -lvl 3 -y 330
+preplace inst nios2e.DIP2 -pg 1 -lvl 3 -y 430
+preplace inst nios2e.SW0 -pg 1 -lvl 3 -y 990
+preplace inst nios2e.DIP3 -pg 1 -lvl 3 -y 530
+preplace inst nios2e.SW1 -pg 1 -lvl 3 -y 1390
+preplace inst nios2e.DUTY -pg 1 -lvl 3 -y 1190
+preplace inst nios2e.NIOS2.cpu -pg 1
+preplace inst nios2e.CLK -pg 1 -lvl 1 -y 610
+preplace inst nios2e.NIOS2.reset_bridge -pg 1
+preplace inst nios2e.NIOS2.clock_bridge -pg 1
+preplace inst nios2e.LED0 -pg 1 -lvl 3 -y 130
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)SW1.external_connection,(SLAVE)nios2e.sw1) 1 0 3 NJ 1420 NJ 1420 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.cycle,(SLAVE)CYCLE.external_connection) 1 0 3 NJ 820 NJ 820 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)CLK.clk_in,(SLAVE)nios2e.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)LED4.external_connection,(SLAVE)nios2e.led4) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)DIP3.external_connection,(SLAVE)nios2e.dip3) 1 0 3 NJ 560 NJ 560 NJ
+preplace netloc POINT_TO_POINT<net_container>nios2e</net_container>(MASTER)NIOS2.irq,(SLAVE)JTAG.irq) 1 2 1 660
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)LED1.external_connection,(SLAVE)nios2e.led1) 1 0 3 NJ 1120 NJ 1120 NJ
+preplace netloc INTERCONNECT<net_container>nios2e</net_container>(SLAVE)LED4.reset,(SLAVE)SW1.reset,(SLAVE)DIP3.reset,(SLAVE)RAM.reset1,(SLAVE)LED2.reset,(MASTER)NIOS2.debug_reset_request,(SLAVE)DIP1.reset,(MASTER)CLK.clk_reset,(SLAVE)ID.reset,(SLAVE)DIP0.reset,(SLAVE)NIOS2.reset,(SLAVE)SW0.reset,(SLAVE)DIP2.reset,(SLAVE)LED0.reset,(SLAVE)CYCLE.reset,(SLAVE)DUTY.reset,(SLAVE)LED3.reset,(SLAVE)LED1.reset,(SLAVE)JTAG.reset) 1 1 2 260 1540 680
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.dip0,(SLAVE)DIP0.external_connection) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.led3,(SLAVE)LED3.external_connection) 1 0 3 NJ 1520 NJ 1520 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)CLK.clk_in_reset,(SLAVE)nios2e.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.dip1,(SLAVE)DIP1.external_connection) 1 0 3 NJ 260 NJ 260 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)LED2.external_connection,(SLAVE)nios2e.led2) 1 0 3 NJ 1320 NJ 1320 NJ
+preplace netloc FAN_OUT<net_container>nios2e</net_container>(SLAVE)NIOS2.clk,(SLAVE)ID.clk,(SLAVE)LED2.clk,(SLAVE)LED4.clk,(SLAVE)DUTY.clk,(SLAVE)SW0.clk,(MASTER)CLK.clk,(SLAVE)CYCLE.clk,(SLAVE)LED0.clk,(SLAVE)DIP0.clk,(SLAVE)LED3.clk,(SLAVE)DIP1.clk,(SLAVE)LED1.clk,(SLAVE)DIP2.clk,(SLAVE)RAM.clk1,(SLAVE)SW1.clk,(SLAVE)JTAG.clk,(SLAVE)DIP3.clk) 1 1 2 280 1440 720
+preplace netloc INTERCONNECT<net_container>nios2e</net_container>(SLAVE)SW0.s1,(SLAVE)DUTY.s1,(SLAVE)NIOS2.debug_mem_slave,(SLAVE)RAM.s1,(SLAVE)LED4.s1,(SLAVE)LED2.s1,(SLAVE)DIP1.s1,(SLAVE)DIP0.s1,(SLAVE)DIP2.s1,(SLAVE)SW1.s1,(SLAVE)ID.control_slave,(MASTER)NIOS2.data_master,(SLAVE)LED3.s1,(MASTER)NIOS2.instruction_master,(SLAVE)DIP3.s1,(SLAVE)CYCLE.s1,(SLAVE)LED0.s1,(SLAVE)JTAG.avalon_jtag_slave,(SLAVE)LED1.s1) 1 1 2 300 1560 700
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.duty,(SLAVE)DUTY.external_connection) 1 0 3 NJ 1220 NJ 1220 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.dip2,(SLAVE)DIP2.external_connection) 1 0 3 NJ 460 NJ 460 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)SW0.external_connection,(SLAVE)nios2e.sw0) 1 0 3 NJ 1020 NJ 1020 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.led0,(SLAVE)LED0.external_connection) 1 0 3 NJ 160 NJ 160 NJ
+levelinfo -pg 1 0 50 950
+levelinfo -hier nios2e 60 90 420 790 940

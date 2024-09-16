@@ -1,0 +1,6 @@
+15:34:21 **** Clean-only build of configuration Nios II for project PwmCtrl_0_bsp ****
+make clean 
+[BSP clean complete]
+
+15:34:22 Build Finished (took 191ms)
+

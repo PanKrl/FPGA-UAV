@@ -1,0 +1,20 @@
+12:59:13 **** Build of configuration Nios II for project gps_prt_3 ****
+make all 
+Info: Building ../gps_prt_3_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../gps_prt_3_bsp/
+[BSP build complete]
+Info: Compiling gps_prt_3.c to obj/default/gps_prt_3.o
+nios2-elf-gcc -xc -MP -MMD -c -I../gps_prt_3_bsp//HAL/inc -I../gps_prt_3_bsp/ -I../gps_prt_3_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/gps_prt_3.o gps_prt_3.c
+Info: Linking gps_prt_3.elf
+nios2-elf-g++  -T'../gps_prt_3_bsp//linker.x' -msys-crt0='../gps_prt_3_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../gps_prt_3_bsp/   -Wl,-Map=gps_prt_3.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o gps_prt_3.elf obj/default/gps_prt_3.o -lm -msys-lib=m
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: gps_prt_3.elf section `.text' will not fit in region `RAM_security'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x19268 of gps_prt_3.elf section `.rwdata' is not within region `RAM_security'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x1af94 of gps_prt_3.elf section `.bss' is not within region `RAM_security'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x19268 of gps_prt_3.elf section `.rwdata' is not within region `RAM_security'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x1af94 of gps_prt_3.elf section `.bss' is not within region `RAM_security'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: region `RAM_security' overflowed by 84100 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [gps_prt_3.elf] Error 1
+
+12:59:14 Build Finished (took 737ms)
+

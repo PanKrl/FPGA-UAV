@@ -1,0 +1,18 @@
+11:26:18 **** Build of configuration Nios II for project security_v3 ****
+make all 
+Info: Building ../security_v3_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../security_v3_bsp/
+[BSP build complete]
+[security_v3 build complete]
+11:26:28 **** Build of configuration Nios II for project security_v3 ****
+make all 
+Info: Building ../security_v3_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../security_v3_bsp/
+[BSP build complete]
+[security_v3 build complete]
+11:26:30 **** Incremental Build of configuration Nios II for project security_v3 ****
+make all 
+Info: Building ../security_v3_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../security_v3_bsp/
+[BSP build complete]
+[security_v3 build complete]

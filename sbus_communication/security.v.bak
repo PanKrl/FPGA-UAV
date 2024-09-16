@@ -1,0 +1,24 @@
+//2020/06/20 Quartus
+
+module Secure_Processor(
+CLK,
+RST_N,
+sw,//停止のトリガー
+stop//停止信号
+);
+
+input CLK;
+input RST_N;
+input sw;
+output stop;
+
+
+
+    nios_security u0 (
+        .clk_clk       (CLK),       //   clk.clk
+        .sw_export    (sw),    //   gps.export
+        .reset_reset_n (stop), // reset.reset_n
+        .stop_export   (RST_N)    //  stop.export
+    );
+
+endmodule 

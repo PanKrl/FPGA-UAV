@@ -1,0 +1,85 @@
+/*
+ * imu_i2c.c
+ *
+ *  Created on: 2023/11/16
+ *      Author: space
+ */
+#include "imu_i2c.h"
+
+u8 TFR_CMD(u8 STA,u8 STO,u8 AD,u8 RW_D){//コマンドの生成
+	u8 cmd=((STA<<9)|(STO<<8)|(AD<<1)|(RW_D));//()で囲ってみた 11/21
+	return cmd;
+}
+
+u8 IMU_READ(u8 addr){
+	return READ(addr,1,1);
+}
+
+u8 READ(u8 buffer,u8 len,u8 stop){
+	u8 pos=0;
+	while(pos<len){
+		u8 read_len=((len-pos)>MAX_BUFFER_SIZE)?MAX_BUFFER_SIZE:(len-pos);
+		u8 read_stop=(pos<(len-read_len))? FALSE :stop;
+		if(!_read(buffer+pos,read_len,read_stop)){
+			return 0;
+		}
+		pos+=read_len;
+	}
+	return 0;
+}
+
+u8 _read(u8 buffer,u8 len,u8 stop){
+	int i;
+	u8 recv=RequestFrom(BNO055_ADDR,len);
+	if(recv!=len){
+
+#ifdef DEBUG_SERIAL
+		printf("I2C Device did not receive enough data\n");
+		printf("%d\n",recv);
+#endif
+		return FALSE;
+	}
+	for(i=0;i<len;i++){
+		buffer=IORD_ALT_AVALON_I2C_RX_DATA(I2C_BASE);
+	}
+
+return TRUE;
+}
+
+u8 RequestFrom(u8 addr,u8 len){
+	return _RequestFrom(addr,len,0,0,TRUE);
+}
+
+u8 _RequestFrom(u8 addr,u8 len,u8 iaddress,u8 isize,u8 sendStop){
+
+	return 0;
+}
+
+void IMU_init(void){//IMU,I2Cの初期化関数
+////	IOWR_ALT_AVALON_I2C_CTRL(I2C_BASE,DISABLE);//i2c_disable
+////
+////	IOWR_ALT_AVALON_I2C_ISER(I2C_BASE,0x0);//ISERのコンフィグレーション
+////	IOWR_ALT_AVALON_I2C_SCL_LOW(I2C_BASE,0x1);//SCL_LOWのコンフィグレーション
+////	IOWR_ALT_AVALON_I2C_SCL_HIGH(I2C_BASE,0x1);//SCL_HIGHのコンフィグレーション
+////	IOWR_ALT_AVALON_I2C_SDA_HOLD(I2C_BASE,0x1);//SDA_HOLDのコンフィグレーション
+//
+//	IOWR_ALT_AVALON_I2C_CTRL(I2C_BASE,ENABLE);//BUS_SPEED:高速(400kbps),ENABLE:有効
+//
+//	if(IORD_ALT_AVALON_I2C_CTRL(I2C_BASE)==ENABLE){
+//	printf("I2C Start\n");
+//	}
+//	IMU_WRITE(PWR_MODE_ADDR,NORMAL_MODE);//POWER:NORMAL_MODE
+//	usleep(10);
+//	IMU_WRITE(OPR_MODE_ADDR,CONFIG_MODE);//CONFIGURATION_MODE
+//	usleep(10);
+//	IMU_WRITE(OPR_MODE_ADDR,IMU_MODE);//IMU_MODE
+//	usleep(10);
+//	u8 chip_status=IMU_READ(CHIP_ID);
+//	usleep(10);
+//
+//	printf("%04d\n",chip_status);//0xa0＝160になれば正常
+
+}
+
+
+

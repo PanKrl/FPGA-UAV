@@ -1,0 +1,9 @@
+17:41:21 **** Incremental Build of configuration Nios II for project imu_i2c ****
+make all 
+Info: Building ../imu_i2c_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../imu_i2c_bsp/
+[BSP build complete]
+[imu_i2c build complete]
+
+17:41:22 Build Finished (took 658ms)
+

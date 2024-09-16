@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "PWM",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "SW2",
+					"strict" : false
+				},
+				{
+					"name" : "SW3",
+					"strict" : false
+				},
+				{
+					"name" : "SW1",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

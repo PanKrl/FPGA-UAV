@@ -1,0 +1,123 @@
+#include "sys/alt_stdio.h"
+#include "system.h"
+
+int main()
+{
+	//パーセントの指定
+	int cnt=5;
+
+  while (1){
+	  //周期の設定
+	  *(volatile unsigned long*) CYCLE_BASE=125000 ;
+
+	  //0%
+	  if(cnt==0){
+	  *(volatile unsigned long*) DUTY_BASE=47000;
+
+	  }
+	 //5%
+	  else if(cnt==5){
+		  *(volatile unsigned long*) DUTY_BASE=50475;
+
+	  }
+	  //10%
+	  else if(cnt==10){
+		  *(volatile unsigned long*) DUTY_BASE=53950;
+
+	  }
+	  //15%
+	  else if(cnt==15){
+		  *(volatile unsigned long*) DUTY_BASE=57425;
+
+	  }
+	  //20%
+	  else if(cnt==20){
+	  		  *(volatile unsigned long*) DUTY_BASE=60900;
+
+	  	  }
+	  //25%
+	  else if(cnt==25){
+	  		  *(volatile unsigned long*) DUTY_BASE=64375;
+
+	  	  }
+	  //30%
+	  else if(cnt==30){
+	  		  *(volatile unsigned long*) DUTY_BASE=67850;
+
+	  	  }
+	  //35%
+	  else if(cnt==35){
+	  		  *(volatile unsigned long*) DUTY_BASE=71325;
+
+	  	  }
+	  //40%
+	  else if(cnt==40){
+	  		  *(volatile unsigned long*) DUTY_BASE=74800;
+
+	  	  }
+	  //45%
+	  else if(cnt==45){
+	  		  *(volatile unsigned long*) DUTY_BASE=78275;
+
+	  	  }
+	  //50%
+	  else if(cnt==50){
+	  		  *(volatile unsigned long*) DUTY_BASE=81750;
+
+	  	  }
+	  //55%
+	  else if(cnt==55){
+	  		  *(volatile unsigned long*) DUTY_BASE=85225;
+
+	  	  }
+	  //60%
+	  else if(cnt==60){
+	  		  *(volatile unsigned long*) DUTY_BASE=88700;
+
+	  	  }
+	  //65%
+	  else if(cnt==65){
+	  		  *(volatile unsigned long*) DUTY_BASE=92175;
+
+	  	  }
+	  //70%
+	  else if(cnt==70){
+	  		  *(volatile unsigned long*) DUTY_BASE=95650;
+
+	  	  }
+	  //75%
+	  else if(cnt==75){
+	  		  *(volatile unsigned long*) DUTY_BASE=99125;
+
+	  	  }
+	  //80%
+	  else if(cnt==80){
+	  		  *(volatile unsigned long*) DUTY_BASE=102600;
+
+	  	  }
+	  //85%
+	  else if(cnt==85){
+	  		  *(volatile unsigned long*) DUTY_BASE=106075;
+
+	  	  }
+	  //90%
+	  else if(cnt==90){
+	  		  *(volatile unsigned long*) DUTY_BASE=109550;
+	  	  }
+	  //95%
+	  else if(cnt==95){
+	  		  *(volatile unsigned long*) DUTY_BASE=113025;
+	  }
+	  //100%
+	  else if(cnt==100){
+	  		  *(volatile unsigned long*) DUTY_BASE=116500;
+	  	  }
+     //Error
+	  else{
+		  *(volatile unsigned long*) DUTY_BASE=0;
+	  }
+	  }
+
+  return 0;
+}
+

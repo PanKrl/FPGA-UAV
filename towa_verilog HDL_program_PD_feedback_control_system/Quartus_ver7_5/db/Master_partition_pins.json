@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_i2c",
+					"strict" : false
+				},
+				{
+					"name" : "scl",
+					"strict" : false
+				},
+				{
+					"name" : "led_sbus",
+					"strict" : false
+				},
+				{
+					"name" : "pwm",
+					"strict" : false
+				},
+				{
+					"name" : "sda",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "sw_sbus",
+					"strict" : false
+				},
+				{
+					"name" : "sw_i2c",
+					"strict" : false
+				},
+				{
+					"name" : "rx",
+					"strict" : false
+				},
+				{
+					"name" : "sda_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

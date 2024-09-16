@@ -1,0 +1,28 @@
+//2020/06/21 NiosII Secure Processor
+
+#include "sys/alt_stdio.h"
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+
+
+int main()
+{
+  int sw;
+  int stop=0x0;
+  IOWR_ALTERA_AVALON_PIO_DATA(STOP_BASE,stop);
+  alt_putstr("Start Secure Processor\n");
+
+  while (1){
+	  sw=IORD_ALTERA_AVALON_PIO_DATA(SW_BASE);
+
+	  if(sw==0x0){
+		 stop=0x1;
+		  IOWR_ALTERA_AVALON_PIO_DATA(STOP_BASE,stop);
+		  alt_putstr("STOP!\n");
+		  break;
+	  }
+  }
+
+  return 0;
+}
+

@@ -1,0 +1,9 @@
+18:24:38 **** Incremental Build of configuration Nios II for project security00 ****
+make all 
+Info: Building ../security00_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../security00_bsp/
+[BSP build complete]
+[security00 build complete]
+
+18:24:38 Build Finished (took 708ms)
+

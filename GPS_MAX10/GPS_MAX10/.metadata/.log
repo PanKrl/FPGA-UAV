@@ -1,0 +1,1204 @@
+!SESSION 2023-06-21 14:10:13.688 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 14:10:29.591
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 14:11:05.933
+!MESSAGE Indexed 'security00_bsp' (80 sources, 155 headers) in 1.62 sec: 5,421 declarations; 8,612 references; 17 unresolved inclusions; 2 syntax errors; 52 unresolved names (0.37%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 14:11:06.412
+!MESSAGE Indexed 'security00' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:13:06.812
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 14:13:09.616
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x9028] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:13:09.838
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 14:13:13.081
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x9028, /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 14:13:13.083
+!MESSAGE Downloading ELF Process failed
+!SESSION 2023-06-21 14:16:16.763 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 14:16:26.987
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:17:07.241
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:17:09.303
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:23:28.928
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:23:29.791
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:23:31.809
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:23:59.966
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:24:00.847
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:24:02.939
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:26:10.770
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:26:11.461
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:26:13.535
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:29:03.950
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:29:04.641
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:29:06.641
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:35:43.475
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:35:44.194
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:35:46.224
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:36:45.539
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:36:46.276
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:36:48.289
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:41:01.511
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:41:02.210
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 14:41:04.266
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/20200621/software/security00/security00.elf]
+!SESSION 2023-06-21 15:19:02.170 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 4 567 2023-06-21 15:19:11.605
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-21 15:19:11.605
+!MESSAGE Could not read metadata for 'security00'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'security00' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-21 15:19:11.606
+!MESSAGE The project description file (.project) for 'security00' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-06-21 15:19:11.606
+!MESSAGE Could not read metadata for 'security00_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'security00_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-06-21 15:19:11.606
+!MESSAGE The project description file (.project) for 'security00_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2023-06-21 15:19:15.955
+!MESSAGE The project description file (.project) for 'security00' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 15:19:18.164
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 15:21:02.095
+!MESSAGE Indexed 'security_bsp' (80 sources, 152 headers) in 1.54 sec: 5,273 declarations; 8,326 references; 21 unresolved inclusions; 3 syntax errors; 60 unresolved names (0.44%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 15:21:02.511
+!MESSAGE Indexed 'security' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:23:06.619
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1687328290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:23:08.908
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1687328290 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_NOTflash/software/security/security.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:37:36.067
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:37:36.750
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1687328290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:37:39.105
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1687328290 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_NOTflash/software/security/security.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:39:36.740
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:39:37.462
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1687328290]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:39:39.723
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1687328290 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_NOTflash/software/security/security.elf]
+!SESSION 2023-06-21 15:57:23.677 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 15:57:52.277
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:58:49.600
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 15:58:51.731
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_NOTflash/software/security/security.elf]
+!SESSION 2023-06-21 16:31:32.820 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 16:31:46.416
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2023-06-21 16:37:38.924 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 16:37:48.387
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 16:38:44.115
+!MESSAGE Indexed 'security_02_bsp' (81 sources, 159 headers) in 1.71 sec: 5,544 declarations; 8,997 references; 26 unresolved inclusions; 3 syntax errors; 62 unresolved names (0.42%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 16:38:44.633
+!MESSAGE Indexed 'security_02' (1 sources, 0 headers) in 0.004 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 16:48:41.519
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687332992]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 16:48:43.735
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687332992 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_02/security_02.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 17:02:00.892
+!MESSAGE Indexed 'security_03_bsp' (81 sources, 158 headers) in 0.938 sec: 5,535 declarations; 8,956 references; 45 unresolved inclusions; 3 syntax errors; 89 unresolved names (0.61%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 17:02:01.357
+!MESSAGE Indexed 'security_03' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 17:03:10.631
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 17:03:11.438
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687334207]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 17:03:13.767
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687334207 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_03/security_03.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 17:33:48.076
+!MESSAGE Indexed 'security_04_bsp' (81 sources, 143 headers) in 0.78 sec: 4,202 declarations; 7,356 references; 70 unresolved inclusions; 6 syntax errors; 141 unresolved names (1.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-21 17:33:48.590
+!MESSAGE Indexed 'security_04' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 17:34:43.372
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 17:34:44.229
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687336311]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 17:34:46.499
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687336311 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+!SESSION 2023-06-21 17:36:32.504 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 17:36:41.513
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 18:05:02.786
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687336311]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 18:05:05.089
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687336311 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+!SESSION 2023-06-21 18:53:20.236 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 18:53:35.510
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 18:55:03.647
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687340771]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 18:55:05.907
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687340771 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 19:26:44.729
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 19:26:50.077
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:503)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 19:26:50.087
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:503)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2023-06-21 19:28:43.242 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-21 19:28:45.769
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 19:28:52.555
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 19:29:25.476
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687340771]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 19:29:27.810
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687340771 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 19:51:23.716
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 19:51:24.530
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687340771]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 19:51:26.783
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687340771 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+!SESSION 2023-06-22 13:03:40.190 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-22 13:03:54.783
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-22 13:04:47.412
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687406479]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-22 13:04:49.663
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687406479 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+!SESSION 2023-06-22 13:35:41.325 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-22 13:35:47.714
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-22 13:35:54.332
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-22 13:36:32.591
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687408433]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-22 13:36:34.827
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687408433 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-22 17:14:14.414
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-22 17:14:15.266
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x1009060 --id=0x0 --timestamp=1687408433]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-22 17:14:17.648
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x1009060 --id=0x0 --timestamp=1687408433 /cygdrive/c/intelFPGA_lite/18.1/stop_exexution_flash0621/software/security_04/security_04.elf]
+!SESSION 2023-06-26 12:11:08.799 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-06-26 12:11:13.285
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-26 12:11:26.029
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-26 12:12:11.756
+!MESSAGE Indexed 'security_uart_1_bsp' (85 sources, 65 headers) in 0.777 sec: 1,302 declarations; 3,009 references; 116 unresolved inclusions; 6 syntax errors; 206 unresolved names (4.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-26 12:12:13.594
+!MESSAGE Indexed 'security_uart_1' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-06-26 12:44:16.100 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-26 12:44:31.798
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-26 12:45:43.902
+!MESSAGE Indexed 'GPS_print_bsp' (85 sources, 65 headers) in 0.857 sec: 1,302 declarations; 3,009 references; 116 unresolved inclusions; 6 syntax errors; 206 unresolved names (4.6%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-26 12:45:45.804
+!MESSAGE Indexed 'GPS_print' (1 sources, 21 headers) in 0.048 sec: 983 declarations; 1,599 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-06-27 14:18:17.361 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-27 14:19:01.435
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-27 14:40:28.843
+!MESSAGE Indexed 'gps_prt_bsp' (85 sources, 155 headers) in 1.4 sec: 5,512 declarations; 8,891 references; 53 unresolved inclusions; 3 syntax errors; 109 unresolved names (0.75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-27 14:40:29.295
+!MESSAGE Indexed 'gps_prt' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-06-27 18:28:13.825 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-27 18:28:27.812
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-27 18:29:13.253
+!MESSAGE Indexed 'gps_prt_2_bsp' (81 sources, 164 headers) in 1.83 sec: 5,644 declarations; 9,005 references; 38 unresolved inclusions; 3 syntax errors; 73 unresolved names (0.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-27 18:29:13.826
+!MESSAGE Indexed 'gps_prt_2' (1 sources, 21 headers) in 0.046 sec: 983 declarations; 1,599 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 11:45:19.173
+!MESSAGE Indexed 'gps_prt_3_bsp' (85 sources, 65 headers) in 0.45 sec: 1,301 declarations; 2,977 references; 116 unresolved inclusions; 6 syntax errors; 202 unresolved names (4.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 11:45:21.035
+!MESSAGE Indexed 'gps_prt_3' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 13:06:06.524
+!MESSAGE Indexed 'gps_prt_4_bsp' (85 sources, 65 headers) in 0.427 sec: 1,301 declarations; 2,977 references; 116 unresolved inclusions; 6 syntax errors; 202 unresolved names (4.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 13:06:07.503
+!MESSAGE Indexed 'gps_prt_4' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-06-29 15:02:39.941 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-29 15:03:07.623
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 16:32:39.737
+!MESSAGE Indexed 'gps_prt_5_bsp' (85 sources, 65 headers) in 0.698 sec: 1,301 declarations; 2,977 references; 116 unresolved inclusions; 6 syntax errors; 202 unresolved names (4.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 16:32:41.542
+!MESSAGE Indexed 'gps_prt_5' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 17:06:11.190
+!MESSAGE Indexed 'gps_prt_small_bsp' (85 sources, 155 headers) in 0.895 sec: 5,493 declarations; 8,951 references; 57 unresolved inclusions; 3 syntax errors; 129 unresolved names (0.89%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 17:06:11.528
+!MESSAGE Indexed 'gps_prt_small' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2023-06-29 18:22:54.571 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-29 18:23:14.275
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 18:24:00.316
+!MESSAGE Indexed 'gps_prt_6_bsp' (85 sources, 154 headers) in 1.65 sec: 5,375 declarations; 8,781 references; 44 unresolved inclusions; 3 syntax errors; 96 unresolved names (0.67%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 18:24:00.725
+!MESSAGE Indexed 'gps_prt_6' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-29 18:25:14.725
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688030511]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-29 18:25:17.067
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688030511 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_6/gps_prt_6.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-29 18:43:14.539
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688030511]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-29 18:43:16.893
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688030511 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_6/gps_prt_6.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-29 18:57:26.892
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1688032490", expected: "1688030511".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-29 18:57:26.933
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1688032490", expected: "1688030511".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 18:58:20.372
+!MESSAGE Indexed 'gps_prt_7_bsp' (85 sources, 137 headers) in 0.736 sec: 4,017 declarations; 7,184 references; 78 unresolved inclusions; 6 syntax errors; 161 unresolved names (1.4%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-29 18:58:20.892
+!MESSAGE Indexed 'gps_prt_7' (1 sources, 0 headers) in 0.005 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-29 18:59:38.832
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688032490]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-29 18:59:41.127
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688032490 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_7/gps_prt_7.elf]
+!SESSION 2023-07-04 15:38:38.642 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-04 15:38:44.923
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2023-07-04 15:38:45.028
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-04 15:38:45.028
+!MESSAGE Could not read metadata for 'gps_prt_5'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'gps_prt_5' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-04 15:38:45.028
+!MESSAGE The project description file (.project) for 'gps_prt_5' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-04 15:38:45.028
+!MESSAGE Could not read metadata for 'gps_prt_5_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'gps_prt_5_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-04 15:38:45.028
+!MESSAGE The project description file (.project) for 'gps_prt_5_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-07-04 15:38:51.583
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-07-04 15:39:42.206
+!MESSAGE Indexed 'gps_prt_11_bsp' (85 sources, 154 headers) in 1.6 sec: 5,375 declarations; 8,781 references; 45 unresolved inclusions; 3 syntax errors; 96 unresolved names (0.67%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-07-04 15:39:42.745
+!MESSAGE Indexed 'gps_prt_11' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.resources 2 2 2023-07-04 15:41:15.117
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-07-04 15:41:15.117
+!MESSAGE The project description file (.project) for 'gps_prt_6' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-07-04 15:41:15.117
+!MESSAGE The project description file (.project) for 'gps_prt_6_bsp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-07-04 15:41:15.117
+!MESSAGE The project description file (.project) for 'gps_prt_7' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-07-04 15:41:15.117
+!MESSAGE The project description file (.project) for 'gps_prt_7_bsp' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2023-07-04 15:53:55.624 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-07-04 15:54:17.818
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 15:54:26.603
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 15:54:29.018
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:16:24.621
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:16:25.379
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:16:27.707
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:21:44.121
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:21:46.438
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:24:53.667
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:24:55.993
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:26:37.294
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:26:39.630
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:43:05.664
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:43:06.398
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:43:08.668
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:44:26.056
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:44:26.763
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:44:29.178
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:52:59.434
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:53:00.168
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 16:53:02.639
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 17:02:45.177
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 17:02:46.068
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 17:02:48.694
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 17:08:00.112
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x41060 --id=0x0 --timestamp=1688452643]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-04 17:08:02.729
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x41060 --id=0x0 --timestamp=1688452643 /cygdrive/c/intelFPGA_lite/18.1/GPS_MAX10/software/gps_prt_11/gps_prt_11.elf]
+!SESSION 2023-07-05 18:21:51.964 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-07-05 18:22:37.855
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2024-07-29 17:10:11.436 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-07-29 17:10:57.281
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more

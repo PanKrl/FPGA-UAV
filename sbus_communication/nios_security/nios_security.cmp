@@ -1,0 +1,11 @@
+	component nios_security is
+		port (
+			clk_clk       : in  std_logic                     := 'X'; -- clk
+			led_export    : out std_logic_vector(31 downto 0);        -- export
+			reset_reset_n : in  std_logic                     := 'X'; -- reset_n
+			stop_export   : out std_logic_vector(31 downto 0);        -- export
+			uart1_rxd     : in  std_logic                     := 'X'; -- rxd
+			uart1_txd     : out std_logic                             -- txd
+		);
+	end component nios_security;
+

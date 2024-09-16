@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\FPGAlite_Hardware\\18.1\\steel_control_experiment\\PWM_send_duty\\software\\Send_Duty
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\FPGAlite_Hardware\\18.1\\steel_control_experiment\\PWM_send_duty\\nios2e.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\FPGAlite_Hardware\\18.1\\steel_control_experiment\\PWM_send_duty\\software\\Send_Duty_bsp

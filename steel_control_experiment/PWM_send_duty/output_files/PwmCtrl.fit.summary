@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Jan 10 16:01:49 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : PwmCtrl
+Top-level Entity Name : PwmCtrl
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 2,025 / 22,320 ( 9 % )
+    Total combinational functions : 1,866 / 22,320 ( 8 % )
+    Dedicated logic registers : 1,098 / 22,320 ( 5 % )
+Total registers : 1098
+Total pins : 17 / 154 ( 11 % )
+Total virtual pins : 0
+Total memory bits : 142,336 / 608,256 ( 23 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

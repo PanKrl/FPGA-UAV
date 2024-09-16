@@ -1,0 +1,6 @@
+13:22:44 **** Clean-only build of configuration Nios II for project imu_uart_bsp ****
+make clean 
+[BSP clean complete]
+
+13:22:44 Build Finished (took 264ms)
+

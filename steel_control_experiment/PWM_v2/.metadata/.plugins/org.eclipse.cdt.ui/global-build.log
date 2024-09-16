@@ -1,0 +1,2702 @@
+13:09:08 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+Compiling alt_alarm_start.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+Compiling alt_busy_sleep.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_busy_sleep.o HAL/src/alt_busy_sleep.c
+Compiling alt_close.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_close.o HAL/src/alt_close.c
+Compiling alt_dcache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush.o HAL/src/alt_dcache_flush.c
+Compiling alt_dcache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_all.o HAL/src/alt_dcache_flush_all.c
+Compiling alt_dcache_flush_no_writeback.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dcache_flush_no_writeback.o HAL/src/alt_dcache_flush_no_writeback.c
+Compiling alt_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dev.o HAL/src/alt_dev.c
+Compiling alt_dev_llist_insert.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dev_llist_insert.o HAL/src/alt_dev_llist_insert.c
+Compiling alt_dma_rxchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_rxchan_open.o HAL/src/alt_dma_rxchan_open.c
+Compiling alt_dma_txchan_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_dma_txchan_open.o HAL/src/alt_dma_txchan_open.c
+Compiling alt_do_ctors.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_do_ctors.o HAL/src/alt_do_ctors.c
+Compiling alt_do_dtors.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_do_dtors.o HAL/src/alt_do_dtors.c
+Compiling alt_ecc_fatal_entry.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_ecc_fatal_entry.o HAL/src/alt_ecc_fatal_entry.S
+Compiling alt_ecc_fatal_exception.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ecc_fatal_exception.o HAL/src/alt_ecc_fatal_exception.c
+Compiling alt_env_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_env_lock.o HAL/src/alt_env_lock.c
+Compiling alt_environ.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_environ.o HAL/src/alt_environ.c
+Compiling alt_errno.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_errno.o HAL/src/alt_errno.c
+Compiling alt_exception_entry.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_entry.o HAL/src/alt_exception_entry.S
+Compiling alt_exception_muldiv.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_muldiv.o HAL/src/alt_exception_muldiv.S
+Compiling alt_exception_trap.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_trap.o HAL/src/alt_exception_trap.S
+Compiling alt_execve.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_execve.o HAL/src/alt_execve.c
+Compiling alt_exit.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_exit.o HAL/src/alt_exit.c
+Compiling alt_fcntl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fcntl.o HAL/src/alt_fcntl.c
+Compiling alt_fd_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_lock.o HAL/src/alt_fd_lock.c
+Compiling alt_fd_unlock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fd_unlock.o HAL/src/alt_fd_unlock.c
+Compiling alt_find_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_dev.o HAL/src/alt_find_dev.c
+Compiling alt_find_file.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_find_file.o HAL/src/alt_find_file.c
+Compiling alt_flash_dev.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_flash_dev.o HAL/src/alt_flash_dev.c
+Compiling alt_fork.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fork.o HAL/src/alt_fork.c
+Compiling alt_fs_reg.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fs_reg.o HAL/src/alt_fs_reg.c
+Compiling alt_fstat.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_fstat.o HAL/src/alt_fstat.c
+Compiling alt_get_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_get_fd.o HAL/src/alt_get_fd.c
+Compiling alt_getchar.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_getchar.o HAL/src/alt_getchar.c
+Compiling alt_getpid.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_getpid.o HAL/src/alt_getpid.c
+Compiling alt_gettod.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_gettod.o HAL/src/alt_gettod.c
+Compiling alt_gmon.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_gmon.o HAL/src/alt_gmon.c
+Compiling alt_icache_flush.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush.o HAL/src/alt_icache_flush.c
+Compiling alt_icache_flush_all.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_icache_flush_all.o HAL/src/alt_icache_flush_all.c
+Compiling alt_iic.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic.o HAL/src/alt_iic.c
+Compiling alt_iic_isr_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_iic_isr_register.o HAL/src/alt_iic_isr_register.c
+Compiling alt_instruction_exception_entry.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_entry.o HAL/src/alt_instruction_exception_entry.c
+Compiling alt_instruction_exception_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_instruction_exception_register.o HAL/src/alt_instruction_exception_register.c
+Compiling alt_io_redirect.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_io_redirect.o HAL/src/alt_io_redirect.c
+Compiling alt_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_ioctl.o HAL/src/alt_ioctl.c
+Compiling alt_irq_entry.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_irq_entry.o HAL/src/alt_irq_entry.S
+Compiling alt_irq_handler.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_handler.o HAL/src/alt_irq_handler.c
+Compiling alt_irq_register.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_register.o HAL/src/alt_irq_register.c
+Compiling alt_irq_vars.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_irq_vars.o HAL/src/alt_irq_vars.c
+Compiling alt_isatty.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_isatty.o HAL/src/alt_isatty.c
+Compiling alt_kill.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_kill.o HAL/src/alt_kill.c
+Compiling alt_link.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_link.o HAL/src/alt_link.c
+Compiling alt_load.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_load.o HAL/src/alt_load.c
+Compiling alt_log_macro.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_log_macro.o HAL/src/alt_log_macro.S
+Compiling alt_log_printf.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_log_printf.o HAL/src/alt_log_printf.c
+Compiling alt_lseek.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_lseek.o HAL/src/alt_lseek.c
+Compiling alt_main.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_main.o HAL/src/alt_main.c
+Compiling alt_malloc_lock.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_malloc_lock.o HAL/src/alt_malloc_lock.c
+Compiling alt_mcount.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_mcount.o HAL/src/alt_mcount.S
+Compiling alt_open.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_open.o HAL/src/alt_open.c
+Compiling alt_printf.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_printf.o HAL/src/alt_printf.c
+Compiling alt_putchar.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_putchar.o HAL/src/alt_putchar.c
+Compiling alt_putcharbuf.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_putcharbuf.o HAL/src/alt_putcharbuf.c
+Compiling alt_putstr.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_putstr.o HAL/src/alt_putstr.c
+Compiling alt_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_read.o HAL/src/alt_read.c
+Compiling alt_release_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_release_fd.o HAL/src/alt_release_fd.c
+Compiling alt_remap_cached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_cached.o HAL/src/alt_remap_cached.c
+Compiling alt_remap_uncached.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_remap_uncached.o HAL/src/alt_remap_uncached.c
+Compiling alt_rename.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_rename.o HAL/src/alt_rename.c
+Compiling alt_sbrk.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_sbrk.o HAL/src/alt_sbrk.c
+Compiling alt_settod.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_settod.o HAL/src/alt_settod.c
+Compiling alt_software_exception.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_software_exception.o HAL/src/alt_software_exception.S
+Compiling alt_stat.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_stat.o HAL/src/alt_stat.c
+Compiling alt_tick.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_tick.o HAL/src/alt_tick.c
+Compiling alt_times.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_times.o HAL/src/alt_times.c
+Compiling alt_uncached_free.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_free.o HAL/src/alt_uncached_free.c
+Compiling alt_uncached_malloc.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_uncached_malloc.o HAL/src/alt_uncached_malloc.c
+Compiling alt_unlink.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_unlink.o HAL/src/alt_unlink.c
+Compiling alt_usleep.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_usleep.o HAL/src/alt_usleep.c
+Compiling alt_wait.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_wait.o HAL/src/alt_wait.c
+Compiling alt_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/alt_write.o HAL/src/alt_write.c
+Compiling altera_nios2_gen2_irq.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/HAL/src/altera_nios2_gen2_irq.o HAL/src/altera_nios2_gen2_irq.c
+Compiling crt0.S...
+nios2-elf-gcc -MP -MMD -c   '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global    -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/crt0.o HAL/src/crt0.S
+Compiling alt_sys_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/alt_sys_init.o alt_sys_init.c
+Compiling altera_avalon_jtag_uart_fd.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_fd.o drivers/src/altera_avalon_jtag_uart_fd.c
+Compiling altera_avalon_jtag_uart_init.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_init.o drivers/src/altera_avalon_jtag_uart_init.c
+Compiling altera_avalon_jtag_uart_ioctl.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o drivers/src/altera_avalon_jtag_uart_ioctl.c
+Compiling altera_avalon_jtag_uart_read.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_read.o drivers/src/altera_avalon_jtag_uart_read.c
+Compiling altera_avalon_jtag_uart_write.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_jtag_uart_write.o drivers/src/altera_avalon_jtag_uart_write.c
+Compiling altera_avalon_sysid_qsys.c...
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    '-Os' -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global   -o obj/drivers/src/altera_avalon_sysid_qsys.o drivers/src/altera_avalon_sysid_qsys.c
+Creating libhal_bsp.a...
+rm -f -f libhal_bsp.a
+nios2-elf-ar -src libhal_bsp.a obj/HAL/src/alt_alarm_start.o obj/HAL/src/alt_busy_sleep.o obj/HAL/src/alt_close.o obj/HAL/src/alt_dcache_flush.o obj/HAL/src/alt_dcache_flush_all.o obj/HAL/src/alt_dcache_flush_no_writeback.o obj/HAL/src/alt_dev.o obj/HAL/src/alt_dev_llist_insert.o obj/HAL/src/alt_dma_rxchan_open.o obj/HAL/src/alt_dma_txchan_open.o obj/HAL/src/alt_do_ctors.o obj/HAL/src/alt_do_dtors.o obj/HAL/src/alt_ecc_fatal_entry.o obj/HAL/src/alt_ecc_fatal_exception.o obj/HAL/src/alt_env_lock.o obj/HAL/src/alt_environ.o obj/HAL/src/alt_errno.o obj/HAL/src/alt_exception_entry.o obj/HAL/src/alt_exception_muldiv.o obj/HAL/src/alt_exception_trap.o obj/HAL/src/alt_execve.o obj/HAL/src/alt_exit.o obj/HAL/src/alt_fcntl.o obj/HAL/src/alt_fd_lock.o obj/HAL/src/alt_fd_unlock.o obj/HAL/src/alt_find_dev.o obj/HAL/src/alt_find_file.o obj/HAL/src/alt_flash_dev.o obj/HAL/src/alt_fork.o obj/HAL/src/alt_fs_reg.o obj/HAL/src/alt_fstat.o obj/HAL/src/alt_get_fd.o obj/HAL/src/alt_getchar.o obj/HAL/src/alt_getpid.o obj/HAL/src/alt_gettod.o obj/HAL/src/alt_gmon.o obj/HAL/src/alt_icache_flush.o obj/HAL/src/alt_icache_flush_all.o obj/HAL/src/alt_iic.o obj/HAL/src/alt_iic_isr_register.o obj/HAL/src/alt_instruction_exception_entry.o obj/HAL/src/alt_instruction_exception_register.o obj/HAL/src/alt_io_redirect.o obj/HAL/src/alt_ioctl.o obj/HAL/src/alt_irq_entry.o obj/HAL/src/alt_irq_handler.o obj/HAL/src/alt_irq_register.o obj/HAL/src/alt_irq_vars.o obj/HAL/src/alt_isatty.o obj/HAL/src/alt_kill.o obj/HAL/src/alt_link.o obj/HAL/src/alt_load.o obj/HAL/src/alt_log_macro.o obj/HAL/src/alt_log_printf.o obj/HAL/src/alt_lseek.o obj/HAL/src/alt_main.o obj/HAL/src/alt_malloc_lock.o obj/HAL/src/alt_mcount.o obj/HAL/src/alt_open.o obj/HAL/src/alt_printf.o obj/HAL/src/alt_putchar.o obj/HAL/src/alt_putcharbuf.o obj/HAL/src/alt_putstr.o obj/HAL/src/alt_read.o obj/HAL/src/alt_release_fd.o obj/HAL/src/alt_remap_cached.o obj/HAL/src/alt_remap_uncached.o obj/HAL/src/alt_rename.o obj/HAL/src/alt_sbrk.o obj/HAL/src/alt_settod.o obj/HAL/src/alt_software_exception.o obj/HAL/src/alt_stat.o obj/HAL/src/alt_tick.o obj/HAL/src/alt_times.o obj/HAL/src/alt_uncached_free.o obj/HAL/src/alt_uncached_malloc.o obj/HAL/src/alt_unlink.o obj/HAL/src/alt_usleep.o obj/HAL/src/alt_wait.o obj/HAL/src/alt_write.o obj/HAL/src/altera_nios2_gen2_irq.o obj/HAL/src/crt0.o obj/alt_sys_init.o obj/drivers/src/altera_avalon_jtag_uart_fd.o obj/drivers/src/altera_avalon_jtag_uart_init.o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o obj/drivers/src/altera_avalon_jtag_uart_read.o obj/drivers/src/altera_avalon_jtag_uart_write.o obj/drivers/src/altera_avalon_sysid_qsys.o
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 1964 Bytes program size (code + initialized data).
+Info:                    14 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+13:09:42 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+13:09:43 **** Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+13:09:43 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 1964 Bytes program size (code + initialized data).
+Info:                    14 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+13:09:45 **** Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+13:10:01 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+13:10:04 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+13:59:36 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+13:59:37 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+13:59:38 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:210:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 0%");
+   ^
+PWMCtrl_test.c:210:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:210:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:210:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 0%");
+          ^
+PWMCtrl_test.c:214:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 5%");
+          ^
+PWMCtrl_test.c:219:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 10%");
+          ^
+PWMCtrl_test.c:224:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 15%");
+          ^
+PWMCtrl_test.c:229:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 20%");
+          ^
+PWMCtrl_test.c:233:2: error: duplicate case value
+  case DUTY25:
+  ^
+PWMCtrl_test.c:228:2: error: previously used here
+  case DUTY20:
+  ^
+PWMCtrl_test.c:234:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 25%");
+          ^
+PWMCtrl_test.c:239:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 30%");
+          ^
+PWMCtrl_test.c:244:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 35%");
+          ^
+PWMCtrl_test.c:249:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 40%");
+          ^
+PWMCtrl_test.c:254:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 45%");
+          ^
+PWMCtrl_test.c:259:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 50%");
+          ^
+PWMCtrl_test.c:264:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 55%");
+          ^
+PWMCtrl_test.c:269:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 60%");
+          ^
+PWMCtrl_test.c:274:2: error: case label not within a switch statement
+  case DUTY65:
+  ^
+PWMCtrl_test.c:275:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Output 65%");
+   ^
+PWMCtrl_test.c:275:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:275:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 65%");
+          ^
+PWMCtrl_test.c:277:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:279:2: error: case label not within a switch statement
+  case DUTY70:
+  ^
+PWMCtrl_test.c:280:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 70%");
+          ^
+PWMCtrl_test.c:282:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:284:2: error: case label not within a switch statement
+  case DUTY75:
+  ^
+PWMCtrl_test.c:285:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 75%");
+          ^
+PWMCtrl_test.c:287:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:289:2: error: case label not within a switch statement
+  case DUTY80:
+  ^
+PWMCtrl_test.c:290:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 80%");
+          ^
+PWMCtrl_test.c:292:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:294:2: error: case label not within a switch statement
+  case DUTY85:
+  ^
+PWMCtrl_test.c:295:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 85%");
+          ^
+PWMCtrl_test.c:297:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:299:2: error: case label not within a switch statement
+  case DUTY90:
+  ^
+PWMCtrl_test.c:300:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 90%");
+          ^
+PWMCtrl_test.c:302:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:304:2: error: case label not within a switch statement
+  case DUTY95:
+  ^
+PWMCtrl_test.c:305:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 95%");
+          ^
+PWMCtrl_test.c:307:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:309:2: error: case label not within a switch statement
+  case DUTY100:
+  ^
+PWMCtrl_test.c:310:10: warning: spurious trailing '%' in format [-Wformat=]
+   printf("Output 100%");
+          ^
+PWMCtrl_test.c:312:3: error: break statement not within loop or switch
+   break;
+   ^
+make: *** [obj/default/PWMCtrl_test.o] Error 1
+13:59:39 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:01:13 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:01:14 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:01:15 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:209:2: error: expected ',' or ';' before 'switch'
+  switch(duty){
+  ^
+PWMCtrl_test.c:275:2: error: case label not within a switch statement
+  case DUTY65:
+  ^
+PWMCtrl_test.c:276:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 65%\n");
+   ^
+PWMCtrl_test.c:276:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:276:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:276:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 65%\n");
+          ^
+PWMCtrl_test.c:278:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:280:2: error: case label not within a switch statement
+  case DUTY70:
+  ^
+PWMCtrl_test.c:281:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 70%\n");
+          ^
+PWMCtrl_test.c:283:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:285:2: error: case label not within a switch statement
+  case DUTY75:
+  ^
+PWMCtrl_test.c:286:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 75%\n");
+          ^
+PWMCtrl_test.c:288:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:290:2: error: case label not within a switch statement
+  case DUTY80:
+  ^
+PWMCtrl_test.c:291:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 80%\n");
+          ^
+PWMCtrl_test.c:293:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:295:2: error: case label not within a switch statement
+  case DUTY85:
+  ^
+PWMCtrl_test.c:296:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 85%\n");
+          ^
+PWMCtrl_test.c:298:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:300:2: error: case label not within a switch statement
+  case DUTY90:
+  ^
+PWMCtrl_test.c:301:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 90%\n");
+          ^
+PWMCtrl_test.c:303:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:305:2: error: case label not within a switch statement
+  case DUTY95:
+  ^
+PWMCtrl_test.c:306:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 95%\n");
+          ^
+PWMCtrl_test.c:308:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:310:2: error: case label not within a switch statement
+  case DUTY100:
+  ^
+PWMCtrl_test.c:311:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 100%\n");
+          ^
+PWMCtrl_test.c:313:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:207:6: warning: unused variable 'duty' [-Wunused-variable]
+  int duty=DUTY
+      ^
+make: *** [obj/default/PWMCtrl_test.o] Error 1
+14:01:16 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:02:01 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:02:03 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:02:04 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:211:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 0%\n");
+   ^
+PWMCtrl_test.c:211:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:211:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:211:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 0%\n");
+          ^
+PWMCtrl_test.c:215:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 5%\n");
+          ^
+PWMCtrl_test.c:220:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 10%\n");
+          ^
+PWMCtrl_test.c:225:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 15%\n");
+          ^
+PWMCtrl_test.c:230:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 20%\n");
+          ^
+PWMCtrl_test.c:234:2: error: duplicate case value
+  case DUTY25:
+  ^
+PWMCtrl_test.c:229:2: error: previously used here
+  case DUTY20:
+  ^
+PWMCtrl_test.c:235:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 25%\n");
+          ^
+PWMCtrl_test.c:240:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 30%\n");
+          ^
+PWMCtrl_test.c:245:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 35%\n");
+          ^
+PWMCtrl_test.c:250:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 40%\n");
+          ^
+PWMCtrl_test.c:255:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 45%\n");
+          ^
+PWMCtrl_test.c:260:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 50%\n");
+          ^
+PWMCtrl_test.c:265:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 55%\n");
+          ^
+PWMCtrl_test.c:270:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 60%\n");
+          ^
+PWMCtrl_test.c:275:2: error: case label not within a switch statement
+  case DUTY65:
+  ^
+PWMCtrl_test.c:276:3: warning: incompatible implicit declaration of built-in function 'printf'
+   printf("Output 65%\n");
+   ^
+PWMCtrl_test.c:276:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:276:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 65%\n");
+          ^
+PWMCtrl_test.c:278:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:280:2: error: case label not within a switch statement
+  case DUTY70:
+  ^
+PWMCtrl_test.c:281:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 70%\n");
+          ^
+PWMCtrl_test.c:283:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:285:2: error: case label not within a switch statement
+  case DUTY75:
+  ^
+PWMCtrl_test.c:286:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 75%\n");
+          ^
+PWMCtrl_test.c:288:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:290:2: error: case label not within a switch statement
+  case DUTY80:
+  ^
+PWMCtrl_test.c:291:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 80%\n");
+          ^
+PWMCtrl_test.c:293:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:295:2: error: case label not within a switch statement
+  case DUTY85:
+  ^
+PWMCtrl_test.c:296:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 85%\n");
+          ^
+PWMCtrl_test.c:298:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:300:2: error: case label not within a switch statement
+  case DUTY90:
+  ^
+PWMCtrl_test.c:301:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 90%\n");
+          ^
+PWMCtrl_test.c:303:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:305:2: error: case label not within a switch statement
+  case DUTY95:
+  ^
+PWMCtrl_test.c:306:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 95%\n");
+          ^
+PWMCtrl_test.c:308:3: error: break statement not within loop or switch
+   break;
+   ^
+PWMCtrl_test.c:310:2: error: case label not within a switch statement
+  case DUTY100:
+  ^
+PWMCtrl_test.c:311:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 100%\n");
+          ^
+PWMCtrl_test.c:313:3: error: break statement not within loop or switch
+   break;
+   ^
+make: *** [obj/default/PWMCtrl_test.o] Error 1
+14:02:04 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:03:41 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:03:42 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:03:43 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:211:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 0%\n");
+   ^
+PWMCtrl_test.c:211:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:211:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:211:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 0%\n");
+          ^
+PWMCtrl_test.c:215:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 5%\n");
+          ^
+PWMCtrl_test.c:220:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 10%\n");
+          ^
+PWMCtrl_test.c:225:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 15%\n");
+          ^
+PWMCtrl_test.c:230:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 20%\n");
+          ^
+PWMCtrl_test.c:234:2: error: duplicate case value
+  case DUTY25:
+  ^
+PWMCtrl_test.c:229:2: error: previously used here
+  case DUTY20:
+  ^
+PWMCtrl_test.c:235:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 25%\n");
+          ^
+PWMCtrl_test.c:240:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 30%\n");
+          ^
+PWMCtrl_test.c:245:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 35%\n");
+          ^
+PWMCtrl_test.c:250:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 40%\n");
+          ^
+PWMCtrl_test.c:255:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 45%\n");
+          ^
+PWMCtrl_test.c:260:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 50%\n");
+          ^
+PWMCtrl_test.c:265:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 55%\n");
+          ^
+PWMCtrl_test.c:270:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 60%\n");
+          ^
+PWMCtrl_test.c:275:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 65%\n");
+          ^
+PWMCtrl_test.c:280:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 70%\n");
+          ^
+PWMCtrl_test.c:285:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 75%\n");
+          ^
+PWMCtrl_test.c:290:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 80%\n");
+          ^
+PWMCtrl_test.c:295:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 85%\n");
+          ^
+PWMCtrl_test.c:300:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 90%\n");
+          ^
+PWMCtrl_test.c:305:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 95%\n");
+          ^
+PWMCtrl_test.c:310:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 100%\n");
+          ^
+PWMCtrl_test.c: At top level:
+PWMCtrl_test.c:318:9: error: expected identifier or '(' before 'return'
+         return 0;
+         ^
+PWMCtrl_test.c:319:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+make: *** [obj/default/PWMCtrl_test.o] Error 1
+14:03:44 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:04:00 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:04:01 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:04:02 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:211:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 0%\n");
+   ^
+PWMCtrl_test.c:211:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:211:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:211:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 0%\n");
+          ^
+PWMCtrl_test.c:215:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 5%\n");
+          ^
+PWMCtrl_test.c:220:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 10%\n");
+          ^
+PWMCtrl_test.c:225:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 15%\n");
+          ^
+PWMCtrl_test.c:230:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 20%\n");
+          ^
+PWMCtrl_test.c:234:2: error: duplicate case value
+  case DUTY25:
+  ^
+PWMCtrl_test.c:229:2: error: previously used here
+  case DUTY20:
+  ^
+PWMCtrl_test.c:235:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 25%\n");
+          ^
+PWMCtrl_test.c:240:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 30%\n");
+          ^
+PWMCtrl_test.c:245:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 35%\n");
+          ^
+PWMCtrl_test.c:250:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 40%\n");
+          ^
+PWMCtrl_test.c:255:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 45%\n");
+          ^
+PWMCtrl_test.c:260:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 50%\n");
+          ^
+PWMCtrl_test.c:265:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 55%\n");
+          ^
+PWMCtrl_test.c:270:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 60%\n");
+          ^
+PWMCtrl_test.c:275:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 65%\n");
+          ^
+PWMCtrl_test.c:280:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 70%\n");
+          ^
+PWMCtrl_test.c:285:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 75%\n");
+          ^
+PWMCtrl_test.c:290:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 80%\n");
+          ^
+PWMCtrl_test.c:295:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 85%\n");
+          ^
+PWMCtrl_test.c:300:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 90%\n");
+          ^
+PWMCtrl_test.c:305:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 95%\n");
+          ^
+PWMCtrl_test.c:310:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 100%\n");
+          ^
+make: *** [obj/default/PWMCtrl_test.o] Error 1
+14:04:03 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:05:36 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:05:37 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:05:38 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:211:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 0%\n");
+   ^
+PWMCtrl_test.c:211:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:211:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:211:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 0%\n");
+          ^
+PWMCtrl_test.c:215:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 5%\n");
+          ^
+PWMCtrl_test.c:220:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 10%\n");
+          ^
+PWMCtrl_test.c:225:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 15%\n");
+          ^
+PWMCtrl_test.c:230:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 20%\n");
+          ^
+PWMCtrl_test.c:235:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 25%\n");
+          ^
+PWMCtrl_test.c:240:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 30%\n");
+          ^
+PWMCtrl_test.c:245:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 35%\n");
+          ^
+PWMCtrl_test.c:250:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 40%\n");
+          ^
+PWMCtrl_test.c:255:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 45%\n");
+          ^
+PWMCtrl_test.c:260:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 50%\n");
+          ^
+PWMCtrl_test.c:265:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 55%\n");
+          ^
+PWMCtrl_test.c:270:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 60%\n");
+          ^
+PWMCtrl_test.c:275:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 65%\n");
+          ^
+PWMCtrl_test.c:280:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 70%\n");
+          ^
+PWMCtrl_test.c:285:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 75%\n");
+          ^
+PWMCtrl_test.c:290:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 80%\n");
+          ^
+PWMCtrl_test.c:295:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 85%\n");
+          ^
+PWMCtrl_test.c:300:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 90%\n");
+          ^
+PWMCtrl_test.c:305:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 95%\n");
+          ^
+PWMCtrl_test.c:310:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 100%\n");
+          ^
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 3248 Bytes program size (code + initialized data).
+Info:                    12 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+14:05:40 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:05:56 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:05:57 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:06:49 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:07:10 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:11:51 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:11:52 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:11:53 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:211:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 0%\n");
+   ^
+PWMCtrl_test.c:211:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:211:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:211:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 0%\n");
+          ^
+PWMCtrl_test.c:215:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 5%\n");
+          ^
+PWMCtrl_test.c:220:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 10%\n");
+          ^
+PWMCtrl_test.c:225:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 15%\n");
+          ^
+PWMCtrl_test.c:230:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 20%\n");
+          ^
+PWMCtrl_test.c:235:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 25%\n");
+          ^
+PWMCtrl_test.c:240:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 30%\n");
+          ^
+PWMCtrl_test.c:245:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 35%\n");
+          ^
+PWMCtrl_test.c:250:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 40%\n");
+          ^
+PWMCtrl_test.c:255:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 45%\n");
+          ^
+PWMCtrl_test.c:260:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 50%\n");
+          ^
+PWMCtrl_test.c:265:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 55%\n");
+          ^
+PWMCtrl_test.c:270:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 60%\n");
+          ^
+PWMCtrl_test.c:275:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 65%\n");
+          ^
+PWMCtrl_test.c:280:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 70%\n");
+          ^
+PWMCtrl_test.c:285:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 75%\n");
+          ^
+PWMCtrl_test.c:290:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 80%\n");
+          ^
+PWMCtrl_test.c:295:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 85%\n");
+          ^
+PWMCtrl_test.c:300:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 90%\n");
+          ^
+PWMCtrl_test.c:305:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 95%\n");
+          ^
+PWMCtrl_test.c:310:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 100%\n");
+          ^
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 3256 Bytes program size (code + initialized data).
+Info:                    12 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+14:11:55 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:11:57 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:15:07 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:15:09 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:16:14 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:16:15 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:16:16 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+PWMCtrl_test.c: In function 'main':
+PWMCtrl_test.c:211:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("Output 0%\n");
+   ^
+PWMCtrl_test.c:211:3: warning: incompatible implicit declaration of built-in function 'printf'
+PWMCtrl_test.c:211:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+PWMCtrl_test.c:211:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 0%\n");
+          ^
+PWMCtrl_test.c:215:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 5%\n");
+          ^
+PWMCtrl_test.c:220:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 10%\n");
+          ^
+PWMCtrl_test.c:225:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 15%\n");
+          ^
+PWMCtrl_test.c:230:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 20%\n");
+          ^
+PWMCtrl_test.c:235:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 25%\n");
+          ^
+PWMCtrl_test.c:240:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 30%\n");
+          ^
+PWMCtrl_test.c:245:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 35%\n");
+          ^
+PWMCtrl_test.c:250:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 40%\n");
+          ^
+PWMCtrl_test.c:255:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 45%\n");
+          ^
+PWMCtrl_test.c:260:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 50%\n");
+          ^
+PWMCtrl_test.c:265:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 55%\n");
+          ^
+PWMCtrl_test.c:270:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 60%\n");
+          ^
+PWMCtrl_test.c:275:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 65%\n");
+          ^
+PWMCtrl_test.c:280:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 70%\n");
+          ^
+PWMCtrl_test.c:285:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 75%\n");
+          ^
+PWMCtrl_test.c:290:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 80%\n");
+          ^
+PWMCtrl_test.c:295:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 85%\n");
+          ^
+PWMCtrl_test.c:300:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 90%\n");
+          ^
+PWMCtrl_test.c:305:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 95%\n");
+          ^
+PWMCtrl_test.c:310:10: warning: unknown conversion type character 0xa in format [-Wformat=]
+   printf("Output 100%\n");
+          ^
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 3252 Bytes program size (code + initialized data).
+Info:                    12 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+14:16:18 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:16:21 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:16:23 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:17:16 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+14:17:17 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+14:17:18 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 452 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+14:17:20 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+14:17:23 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+14:17:25 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:10:32 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:10:33 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:10:34 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:10:36 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:10:40 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:10:42 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:11:09 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:11:30 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:12:00 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:12:01 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:12:02 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 464 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:12:05 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:12:06 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:12:21 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:12:22 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:12:23 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 464 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:12:25 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:12:26 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:12:37 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:12:39 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:12:39 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:12:41 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:12:46 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:12:47 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:12:58 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:12:59 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:13:00 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:13:02 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:13:06 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:13:08 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:13:20 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:13:21 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:13:22 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:13:24 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:13:25 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:13:39 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:13:41 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:13:41 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:13:43 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:13:46 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:13:47 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:18:04 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:18:05 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:18:06 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:18:07 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:18:11 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:18:38 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:18:39 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:18:40 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 464 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:18:42 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:18:43 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:18:56 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:18:58 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:18:59 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 464 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:19:00 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:19:01 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:19:14 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:19:15 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:19:16 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:19:18 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:19:19 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:19:33 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:19:34 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:19:35 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:19:37 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:19:40 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+15:20:00 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+15:20:01 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+15:20:02 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+15:20:04 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+15:20:06 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:01:28 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:01:29 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:01:30 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:01:31 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:01:34 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:01:35 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:02:02 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:02:03 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:02:03 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 464 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:02:05 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:02:10 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:02:10 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:02:25 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:02:26 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:02:26 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 464 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:02:28 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:02:32 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:02:48 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:02:49 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:02:50 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:02:51 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:02:52 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:03:07 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:03:08 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:03:08 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:03:10 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:03:11 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:03:25 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:03:25 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:03:26 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:03:28 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:03:30 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:03:42 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:03:43 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:03:44 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:03:45 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:03:47 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:04:05 **** Incremental Build of configuration Nios II for project PWMCtrl ****
+make all 
+Info: Building ../PWMCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_bsp/
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make[1]: *** [public.mk] Error 1
+make: *** [../PWMCtrl_bsp/-recurs-make-lib] Error 2
+16:04:06 **** Incremental Build of configuration Nios II for project PWMCtrl_bsp ****
+make all 
+Makefile not up to date.
+../../nios2e.sopcinfo has been modified since the BSP was generated.
+
+Generate the BSP to update the Makefile, and then build again.
+
+To generate from Eclipse:
+ 1. Right-click the BSP project.
+ 2. In the Nios II Menu, click Generate BSP.
+
+To generate from the command line:
+ nios2-bsp-generate-files --settings=<settings file> --bsp-dir=<target bsp files directory>
+
+make: *** [public.mk] Error 1
+16:04:07 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+Info: Compiling PWMCtrl_test.c to obj/default/PWMCtrl_test.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PWMCtrl_test_bsp//HAL/inc -I../PWMCtrl_test_bsp/ -I../PWMCtrl_test_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PWMCtrl_test.o PWMCtrl_test.c
+Info: Linking PWMCtrl_test.elf
+nios2-elf-g++  -T'../PWMCtrl_test_bsp//linker.x' -msys-crt0='../PWMCtrl_test_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PWMCtrl_test_bsp/  -msmallc  -Wl,-Map=PWMCtrl_test.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PWMCtrl_test.elf obj/default/PWMCtrl_test.o -lm -msys-lib=m
+nios2-elf-insert PWMCtrl_test.elf --thread_model hal --cpu_name NIOS2 --qsys true --simulation_enabled false --id 0 --sidp 0x9100 --timestamp 1705203948 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios2e --quartus_project_dir "C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2" --jdi ../..//output_files/PwmCtrl.jdi --sopcinfo C:/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test_bsp/../../nios2e.sopcinfo
+Info: (PWMCtrl_test.elf) 468 Bytes program size (code + initialized data).
+Info:                    15 KBytes free for stack + heap.
+Info: Creating PWMCtrl_test.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source PWMCtrl_test.elf >PWMCtrl_test.objdump
+[PWMCtrl_test build complete]
+16:04:08 **** Incremental Build of configuration Nios II for project PWMCtrl_test_bsp ****
+make all 
+[BSP build complete]
+16:04:11 **** Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]
+16:04:12 **** Incremental Build of configuration Nios II for project PWMCtrl_test ****
+make all 
+Info: Building ../PWMCtrl_test_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PWMCtrl_test_bsp/
+[BSP build complete]
+[PWMCtrl_test build complete]

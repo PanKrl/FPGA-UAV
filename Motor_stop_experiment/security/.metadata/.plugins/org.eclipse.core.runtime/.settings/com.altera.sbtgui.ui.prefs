@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\FPGAlite_Hardware\\18.1\\Motor_stop_experiment\\security\\software\\security
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\FPGAlite_Hardware\\18.1\\Motor_stop_experiment\\security\\nios_security.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\FPGAlite_Hardware\\18.1\\Motor_stop_experiment\\security\\software\\security_bsp

@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios2e.RAM -pg 1 -lvl 3 -y 110
+preplace inst nios2e.NIOS2 -pg 1 -lvl 2 -y 100
+preplace inst nios2e.ID -pg 1 -lvl 3 -y 30
+preplace inst nios2e.JTAG -pg 1 -lvl 3 -y 290
+preplace inst nios2e.CYCLE -pg 1 -lvl 3 -y 190
+preplace inst nios2e -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios2e.DUTY -pg 1 -lvl 3 -y 390
+preplace inst nios2e.NIOS2.cpu -pg 1
+preplace inst nios2e.CLK -pg 1 -lvl 1 -y 170
+preplace inst nios2e.NIOS2.reset_bridge -pg 1
+preplace inst nios2e.NIOS2.clock_bridge -pg 1
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)nios2e.cycle,(SLAVE)CYCLE.external_connection) 1 0 3 NJ 240 NJ 240 NJ
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)CLK.clk_in,(SLAVE)nios2e.clk) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>nios2e</net_container>(MASTER)CLK.clk_reset,(SLAVE)ID.reset,(SLAVE)RAM.reset1,(SLAVE)JTAG.reset,(MASTER)NIOS2.debug_reset_request,(SLAVE)NIOS2.reset,(SLAVE)DUTY.reset,(SLAVE)CYCLE.reset) 1 1 2 280 440 720
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)DUTY.external_connection,(SLAVE)nios2e.duty) 1 0 3 NJ 420 NJ 420 NJ
+preplace netloc POINT_TO_POINT<net_container>nios2e</net_container>(MASTER)NIOS2.irq,(SLAVE)JTAG.irq) 1 2 1 700
+preplace netloc EXPORT<net_container>nios2e</net_container>(SLAVE)CLK.clk_in_reset,(SLAVE)nios2e.reset) 1 0 1 NJ
+preplace netloc INTERCONNECT<net_container>nios2e</net_container>(MASTER)NIOS2.data_master,(SLAVE)RAM.s1,(SLAVE)JTAG.avalon_jtag_slave,(MASTER)NIOS2.instruction_master,(SLAVE)NIOS2.debug_mem_slave,(SLAVE)CYCLE.s1,(SLAVE)ID.control_slave,(SLAVE)DUTY.s1) 1 1 2 280 60 660
+preplace netloc FAN_OUT<net_container>nios2e</net_container>(SLAVE)DUTY.clk,(SLAVE)RAM.clk1,(SLAVE)ID.clk,(MASTER)CLK.clk,(SLAVE)CYCLE.clk,(SLAVE)NIOS2.clk,(SLAVE)JTAG.clk) 1 1 2 260 260 740
+levelinfo -pg 1 0 50 930
+levelinfo -hier nios2e 60 90 420 770 920

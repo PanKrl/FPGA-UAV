@@ -1,0 +1,229 @@
+/*
+ * 20240114 Motor controller
+ *
+ * 1.push KEY1/Start
+ * 2.All off      /60% duty rate
+ *   DIP_switch[0]/65% duty rate
+ *   DIP_switch[1]/70% duty rate
+ *   DIP_switch[2]/75% duty rate
+ *   DIP_switch[3]/80% duty rate
+ *   else /55% duty rate
+ *
+ * KEY0:Reset
+ */
+
+#include "sys/alt_stdio.h"
+#include "system.h"
+#include  <unistd.h>
+#include "altera_avalon_pio_regs.h"
+
+//Duty比ごとのカウンタ
+#define DUTY0 47000
+#define DUTY5 50475
+#define DUTY10 53950
+#define DUTY15 57425
+#define DUTY20 60900
+#define DUTY25 64375
+#define DUTY30 67850
+#define DUTY35 71325
+#define DUTY40 74800
+#define DUTY45 78275
+#define DUTY50 81750
+#define DUTY55 85225
+#define DUTY60 88700
+#define DUTY65 92175
+#define DUTY70 95650
+#define DUTY75 99125
+#define DUTY80 102600
+#define DUTY85 106075
+#define DUTY90 109550
+#define DUTY95 113025
+#define DUTY100 116500
+
+
+int main(){
+
+        int sw_1=0x1;
+        int dip_0=0x1;
+        int dip_1=0x1;
+        int dip_2=0x1;
+        int dip_3=0x1;
+
+        printf("Start PWM control\n");
+
+        IOWR_ALTERA_AVALON_PIO_DATA(CYCLE_BASE,125000);
+        IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,0);//初期化
+
+        IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,0);
+        IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,0);
+        IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,0);
+        IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+        IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,0);
+        IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+        IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+        IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+        while(1){
+        	sw_1=IORD_ALTERA_AVALON_PIO_DATA(SW1_BASE);
+        	if(sw_1==0x0){
+        	    IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY100);//calibration(100%)
+
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,1);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,1);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,1);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,1);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,1);
+                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,1);
+                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,1);
+                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,1);
+                usleep(1000000);
+
+        		IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY0);//calibration(0%)
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,1);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,0);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,0);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,0);
+                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,1);
+                usleep(1000000);
+
+                printf("Finished calibration\n");
+
+        	    break;
+        	}
+        }
+//
+//        while(1){//5~50まで緩やかに出力上昇
+//                IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY5);//5%
+//
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//                usleep(500000);
+//
+//                IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY20);//20%
+//
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//                usleep(500000);
+//
+//                IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY35);//35%
+//
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//                usleep(500000);
+//
+//                IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY50);//50%
+//
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//                usleep(500000);
+//                break;
+//        }
+//
+//        while(1){
+//        	sw_1=IORD_ALTERA_AVALON_PIO_DATA(SW1_BASE);
+//        	if(sw_1==0){
+//        		break;
+//        	}
+//        	dip_0=IORD_ALTERA_AVALON_PIO_DATA(DIP0_BASE);
+//      	    dip_1=IORD_ALTERA_AVALON_PIO_DATA(DIP1_BASE);
+//      	    dip_2=IORD_ALTERA_AVALON_PIO_DATA(DIP2_BASE);
+//      	    dip_3=IORD_ALTERA_AVALON_PIO_DATA(DIP3_BASE);
+//      	    if(dip_0==0x1&&dip_1==0x1&&dip_2==0x1&&dip_3==0x1){
+//        		IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY60);//60%
+//
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//
+//      	    }else if(dip_0==0x0&&dip_1==0x1&&dip_2==0x1&&dip_3==0x1){
+//        		IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY65);//65%
+//
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//      	    }else if(dip_0==0x1&&dip_1==0x0&&dip_2==0x1&&dip_3==0x1){
+//        		IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY70);//70%
+//
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//      	    }else if(dip_0==0x1&&dip_1==0x1&&dip_2==0x0&&dip_3==0x1){
+//        		IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY75);//75%
+//
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//      	    }else if(dip_0==0x1&&dip_1==0x1&&dip_2==0x1&&dip_3==0x0){
+//      	    	IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY80);//80%
+//
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//      	    }else{
+//      	    	IOWR_ALTERA_AVALON_PIO_DATA(DUTY_BASE,DUTY55);//55%
+//
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED0_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED1_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED2_BASE,1);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED3_BASE,0);
+//        		IOWR_ALTERA_AVALON_PIO_DATA(LED4_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED5_BASE,1);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED6_BASE,0);
+//                IOWR_ALTERA_AVALON_PIO_DATA(LED7_BASE,0);
+//      	    }
+//        }
+
+        return 0;
+}
+

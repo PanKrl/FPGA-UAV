@@ -1,0 +1,7 @@
+Early Power Estimator File Generator Status : Successful - Wed Jan 31 18:48:50 2024
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : Master
+Top-level Entity Name : Master
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

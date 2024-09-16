@@ -1,0 +1,469 @@
+Archive member included to satisfy reference by file (symbol)
+
+../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+                              ../Send_Duty_bsp//obj/HAL/src/crt0.o (alt_load)
+../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+                              ../Send_Duty_bsp//obj/HAL/src/crt0.o (alt_main)
+../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/send_duty.o (usleep)
+../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                              ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o) (__udivsi3)
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                              ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o) (__mulsi3)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000004000 0x0000000000000020
+RAM              0x0000000000004020 0x0000000000003fe0
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../Send_Duty_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/send_duty.o
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libstdc++.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+LOAD ../Send_Duty_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a
+                0x0000000000004000                __alt_mem_RAM = 0x4000
+
+.entry          0x0000000000004000       0x20
+ *(.entry)
+ .entry         0x0000000000004000       0x20 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+                0x0000000000004000                __reset
+                0x000000000000400c                _exit
+
+.exceptions     0x0000000000004020        0x0
+                0x0000000000004020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000004020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000004020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000004020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000004020      0x77c
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000004020       0x3c ../Send_Duty_bsp//obj/HAL/src/crt0.o
+                0x0000000000004020                _start
+ .text          0x000000000000405c        0x0 obj/default/send_duty.o
+ .text.startup  0x000000000000405c      0x398 obj/default/send_duty.o
+                0x000000000000405c                main
+ .text          0x00000000000043f4       0xe0 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+                0x00000000000043f4                alt_load
+ .text          0x00000000000044d4       0x2c ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+                0x00000000000044d4                alt_main
+ .text          0x0000000000004500        0x4 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x0000000000004500                usleep
+ .text          0x0000000000004504       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000004504                alt_irq_init
+                0x0000000000004524                alt_sys_init
+ .text          0x0000000000004528       0x88 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000004528                alt_busy_sleep
+ .text          0x00000000000045b0        0x4 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000000045b0                alt_dcache_flush_all
+ .text          0x00000000000045b4        0x4 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000045b4                alt_icache_flush_all
+ .text          0x00000000000045b8        0x8 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000045b8                altera_nios2_gen2_irq_init
+ .text          0x00000000000045c0      0x1b4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                0x00000000000045c0                __divsi3
+                0x0000000000004644                __modsi3
+                0x00000000000046b8                __udivsi3
+                0x000000000000471c                __umodsi3
+ .text          0x0000000000004774       0x28 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x0000000000004774                __mulsi3
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000000479c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x000000000000479c                . = ALIGN (0x4)
+
+.rodata         0x000000000000479c        0x0
+                0x000000000000479c                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x000000000000479c                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ *(.rodata1)
+                0x000000000000479c                . = ALIGN (0x4)
+                0x000000000000479c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x000000000000479c                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x000000000000479c        0x4 load address 0x00000000000047a0
+                0x000000000000479c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x000000000000479c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .data          0x000000000000479c        0x0 obj/default/send_duty.o
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x000000000000479c        0x0 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x000000000000479c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .data          0x000000000000479c        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                0x000000000000c79c                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x000000000000479c        0x4 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000000000000479c                JTAG
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00000000000047a0                . = ALIGN (0x4)
+                0x00000000000047a0                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x00000000000047a0                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00000000000047a0                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x00000000000047a4        0xc
+                0x00000000000047a4                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x00000000000047a4        0xc ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+                0x00000000000047a4                alt_envp
+                0x00000000000047a8                alt_argv
+                0x00000000000047ac                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .bss           0x00000000000047b0        0x0 obj/default/send_duty.o
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00000000000047b0        0x0 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x00000000000047b0        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .bss           0x00000000000047b0        0x0 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+ *(COMMON)
+                0x00000000000047b0                . = ALIGN (0x4)
+                0x00000000000047b0                __bss_end = ABSOLUTE (.)
+
+.RAM            0x00000000000047b0        0x0
+                [!provide]                        PROVIDE (_alt_partition_RAM_start, ABSOLUTE (.))
+ *(.RAM .RAM. RAM.*)
+                0x00000000000047b0                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_RAM_end, ABSOLUTE (.))
+                0x00000000000047b0                _end = ABSOLUTE (.)
+                0x00000000000047b0                end = ABSOLUTE (.)
+                0x00000000000047b0                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_RAM_load_addr, LOADADDR (.RAM))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/send_duty.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x188
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/send_duty.o
+ .debug_aranges
+                0x0000000000000048       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000068       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000088       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000108       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000128       0x20 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000148       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000168       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0xd3a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x8c ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000008c      0x11e obj/default/send_duty.o
+ .debug_info    0x00000000000001aa      0x1c9 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000000373      0x169 ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00000000000004dc       0xd1 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x00000000000005ad      0x185 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000000732       0xd8 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x000000000000080a       0x92 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000089c       0x92 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000000092e       0x92 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000009c0      0x2c6 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000000c86       0xb4 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_abbrev   0x0000000000000000      0x6c4
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x88 obj/default/send_duty.o
+ .debug_abbrev  0x000000000000009a       0xd8 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000172       0xee ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000260       0x8d ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x00000000000002ed      0x107 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000000000003f4       0x8d ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x0000000000000481       0x42 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000000000004c3       0x42 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000000505       0x42 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000000547      0x10e c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000000655       0x6f c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_line     0x0000000000000000      0x876
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x66 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000066      0x1b9 obj/default/send_duty.o
+ .debug_line    0x000000000000021f       0xa4 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x00000000000002c3       0xbd ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000380       0xcf ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x000000000000044f      0x101 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000550       0xb5 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000000605       0x4e ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000000653       0x4e ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000000000006a1       0x50 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x00000000000006f1      0x105 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_line    0x00000000000007f6       0x80 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_frame    0x0000000000000000      0x20c
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x54 obj/default/send_duty.o
+ .debug_frame   0x0000000000000054       0x30 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000084       0x2c ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x00000000000000b0       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x00000000000000d0       0x3c ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x000000000000010c       0x30 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x000000000000013c       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x000000000000015c       0x20 ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x000000000000017c       0x20 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x000000000000019c       0x50 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000001ec       0x20 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_str      0x0000000000000000      0x672
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x13e obj/default/send_duty.o
+                                        0x17c (size before relaxing)
+ .debug_str     0x000000000000013e      0x173 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x25a (size before relaxing)
+ .debug_str     0x00000000000002b1       0x8f ../Send_Duty_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1d3 (size before relaxing)
+ .debug_str     0x0000000000000340       0x2f ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+                                        0x175 (size before relaxing)
+ .debug_str     0x000000000000036f       0xab ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x23d (size before relaxing)
+ .debug_str     0x000000000000041a       0x33 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                        0x189 (size before relaxing)
+ .debug_str     0x000000000000044d       0x1f ../Send_Duty_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x173 (size before relaxing)
+ .debug_str     0x000000000000046c       0x1f ../Send_Duty_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x173 (size before relaxing)
+ .debug_str     0x000000000000048b       0x20 ../Send_Duty_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x17a (size before relaxing)
+ .debug_str     0x00000000000004ab      0x187 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+                                        0x1d2 (size before relaxing)
+ .debug_str     0x0000000000000632       0x40 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+                                        0x193 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x6f0
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0xe6 obj/default/send_duty.o
+ .debug_loc     0x00000000000000e6       0x21 ../Send_Duty_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_loc     0x0000000000000107       0x21 ../Send_Duty_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000000000000128       0x67 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_loc     0x000000000000018f      0x4ce c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x000000000000065d       0x93 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-mul.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x40
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x10 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000010       0x30 ../Send_Duty_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000008000                __alt_data_end = 0x8000
+                0x0000000000008000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x8000)
+OUTPUT(Send_Duty.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000       0xd8
+ .debug_ranges  0x0000000000000000       0x20 ../Send_Duty_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 obj/default/send_duty.o
+ .debug_ranges  0x0000000000000030       0x48 ../Send_Duty_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x0000000000000078       0x60 c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/mno-hw-mul\libgcc.a(lib2-divmod.o)

@@ -1,0 +1,50 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include "imu_i2c.h" // Include the header file for the IMU I2C interface.
+
+int main() {
+    // Declare variables to store quaternion components from the IMU.
+    u8 quat_w, quat_x, quat_y, quat_z;
+
+    IMU_init(); // Initialize the IMU.
+    setExtCrystalUse(TRUE); // Set the external crystal usage to true for the IMU.
+
+    // Infinite loop to continuously read quaternion data from the IMU.
+    while(1) {
+        // Read quaternion data from the IMU. Each component is 16 bits,
+        // so we read the least significant byte (LSB) and the most significant byte (MSB),
+        // then combine them to get the full 16-bit values.
+        quat_w = IMU_read(QUA_DATA_W_LSB) | (IMU_read(QUA_DATA_W_MSB) << 8);
+        quat_x = IMU_read(QUA_DATA_X_LSB) | (IMU_read(QUA_DATA_X_MSB) << 8);
+        quat_y = IMU_read(QUA_DATA_Y_LSB) | (IMU_read(QUA_DATA_Y_MSB) << 8);
+        quat_z = IMU_read(QUA_DATA_Z_LSB) | (IMU_read(QUA_DATA_Z_MSB) << 8);
+
+        // Print the quaternion components to the console. The format specifier `%04x`
+        // is used to print the variable as a hexadecimal number, padded with zeros to four digits.
+        printf("quat_w=%04x ", quat_w);
+        printf("quat_x=%04x ", quat_x);
+        printf("quat_y=%04x ", quat_y);
+        printf("quat_z=%04x ", quat_z);
+        printf("\n");
+
+        usleep(100000); // Pause for 100 microseconds to slow down the loop.
+    }
+
+    return 0; // Return 0 to indicate successful execution of the program.
+}
+

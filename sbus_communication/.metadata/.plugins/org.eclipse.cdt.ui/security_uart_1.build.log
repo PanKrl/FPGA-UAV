@@ -1,0 +1,38 @@
+12:17:00 **** Incremental Build of configuration Nios II for project security_uart_1 ****
+make all 
+Info: Building ../security_uart_1_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../security_uart_1_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.c to obj/default/hello_world_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../security_uart_1_bsp//HAL/inc -I../security_uart_1_bsp/ -I../security_uart_1_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.c
+In file included from ../security_uart_1_bsp//drivers/inc/altera_avalon_pio_regs.h:34:0,
+                 from hello_world_small.c:5:
+hello_world_small.c: In function 'main':
+hello_world_small.c:19:36: error: 'UART1__BASE' undeclared (first use in this function)
+    gps=IORD_ALTERA_AVALON_PIO_DATA(UART1__BASE);
+                                    ^
+../security_uart_1_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../security_uart_1_bsp//drivers/inc/altera_avalon_pio_regs.h:37:55: note: in expansion of macro 'IORD'
+ #define IORD_ALTERA_AVALON_PIO_DATA(base)             IORD(base, 0) 
+                                                       ^
+hello_world_small.c:19:8: note: in expansion of macro 'IORD_ALTERA_AVALON_PIO_DATA'
+    gps=IORD_ALTERA_AVALON_PIO_DATA(UART1__BASE);
+        ^
+hello_world_small.c:19:36: note: each undeclared identifier is reported only once for each function it appears in
+    gps=IORD_ALTERA_AVALON_PIO_DATA(UART1__BASE);
+                                    ^
+../security_uart_1_bsp//HAL/inc/io.h:70:23: note: in definition of macro '__IO_CALC_ADDRESS_NATIVE'
+   ((void *)(((alt_u8*)BASE) + ((REGNUM) * (SYSTEM_BUS_WIDTH/8))))
+                       ^
+../security_uart_1_bsp//drivers/inc/altera_avalon_pio_regs.h:37:55: note: in expansion of macro 'IORD'
+ #define IORD_ALTERA_AVALON_PIO_DATA(base)             IORD(base, 0) 
+                                                       ^
+hello_world_small.c:19:8: note: in expansion of macro 'IORD_ALTERA_AVALON_PIO_DATA'
+    gps=IORD_ALTERA_AVALON_PIO_DATA(UART1__BASE);
+        ^
+make: *** [obj/default/hello_world_small.o] Error 1
+
+12:17:00 Build Finished (took 696ms)
+

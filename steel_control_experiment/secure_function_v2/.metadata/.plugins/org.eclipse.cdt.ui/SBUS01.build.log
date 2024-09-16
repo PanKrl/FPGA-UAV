@@ -1,0 +1,9 @@
+20:11:45 **** Incremental Build of configuration Nios II for project SBUS01 ****
+make all 
+Info: Building ../SBUS01_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../SBUS01_bsp/
+[BSP build complete]
+[SBUS01 build complete]
+
+20:11:46 Build Finished (took 589ms)
+

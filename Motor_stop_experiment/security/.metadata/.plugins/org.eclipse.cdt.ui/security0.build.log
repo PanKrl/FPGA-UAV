@@ -1,0 +1,22 @@
+05:53:23 **** Incremental Build of configuration Nios II for project security0 ****
+make all 
+Info: Building ../security0_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../security0_bsp/
+[BSP build complete]
+Info: Compiling security0.c to obj/default/security0.o
+nios2-elf-gcc -xc -MP -MMD -c -I../security0_bsp//HAL/inc -I../security0_bsp/ -I../security0_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/security0.o security0.c
+security0.c: In function 'main':
+security0.c:57:2: warning: implicit declaration of function 'alt_irq_register' [-Wimplicit-function-declaration]
+  alt_irq_register(UART1_IRQ,0,uart_irq_handler);
+  ^
+Info: Linking security0.elf
+nios2-elf-g++  -T'../security0_bsp//linker.x' -msys-crt0='../security0_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../security0_bsp/   -Wl,-Map=security0.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o security0.elf obj/default/security0.o -lm -msys-lib=m
+nios2-elf-insert security0.elf --thread_model hal --cpu_name NIOSII --qsys true --simulation_enabled false --id 0 --sidp 0x41070 --timestamp 1689133633 --stderr_dev JTAG --stdin_dev JTAG --stdout_dev JTAG --sopc_system_name nios_security --quartus_project_dir "C:/intelFPGA_lite/18.1/Motor_stop_experiment/security" --jdi ../..//output_files/security.jdi --sopcinfo C:/intelFPGA_lite/18.1/Motor_stop_experiment/security/software/security0_bsp/../../nios_security.sopcinfo
+Info: (security0.elf) 85 KBytes program size (code + initialized data).
+Info:                 35 KBytes free for stack + heap.
+Info: Creating security0.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source security0.elf >security0.objdump
+[security0 build complete]
+
+05:53:25 Build Finished (took 1s.958ms)
+

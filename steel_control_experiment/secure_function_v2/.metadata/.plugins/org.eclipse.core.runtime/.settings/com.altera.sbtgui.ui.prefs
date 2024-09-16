@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+newSoftwareExampleWizardPage.defaultLocation=C\:\\FPGAlite_Hardware\\18.1\\steel_control_experiment\\secure_function_v2\\software\\security_v2
+newSoftwareExampleWizardPage.sopcinfoFile=C\:\\FPGAlite_Hardware\\18.1\\steel_control_experiment\\secure_function_v2\\nios_security.sopcinfo
+newSoftwareExampleWizardPage2.newBspLocation=C\:\\FPGAlite_Hardware\\18.1\\steel_control_experiment\\secure_function_v2\\software\\security_v2_bsp

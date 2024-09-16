@@ -1,0 +1,2348 @@
+!SESSION 2023-06-14 16:51:10.417 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-14 16:51:29.916
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-14 16:52:27.024
+!MESSAGE Indexed 'app00_bsp' (74 sources, 142 headers) in 1.5 sec: 4,527 declarations; 7,262 references; 62 unresolved inclusions; 3 syntax errors; 125 unresolved names (1%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-14 16:52:27.588
+!MESSAGE Indexed 'app00' (1 sources, 0 headers) in 0.006 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 16:53:14.398
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:53:14.413
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:53:16.338
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go /cygdrive/c/intelFPGA_lite/18.1/20230614/software/app00/app00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:54:20.492
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 16:54:20.870
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:54:20.872
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:54:22.795
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:57:31.303
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 16:57:31.549
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:57:31.550
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 16:57:33.582
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:02:55.299
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:02:55.628
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:02:55.629
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:02:57.584
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:04:06.864
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:04:06.865
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:04:08.770
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:04:26.338
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:04:26.627
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:04:26.629
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:04:28.678
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --reset-target]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:13:40.504
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:13:40.815
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:13:40.816
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:13:42.797
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --reset-target]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:14:42.780
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:14:43.126
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:14:43.127
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:14:45.139
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --reset-target]
+!SESSION 2023-06-14 17:15:47.440 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-14 17:15:56.693
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:16:26.819
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:16:26.831
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:16:28.941
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:16:28.946
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:17:26.218
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:17:26.220
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:17:28.317
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:17:28.322
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:23:34.912
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:23:35.207
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:23:35.209
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:23:37.203
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:23:37.206
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/20230614/software/app00/app00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:24:44.388
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:24:44.696
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:24:44.697
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 17:24:46.822
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 17:24:46.828
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/20230614/software/app00/app00.elf]
+!SESSION 2023-06-14 19:37:39.828 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-14 19:37:57.436
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:38:10.852
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:38:10.862
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:38:12.914
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020 --reset-target /cygdrive/c/intelFPGA_lite/18.1/20230614/software/app00/app00.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:38:15.423
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa020, --reset-target, /cygdrive/c/intelFPGA_lite/18.1/20230614/software/app00/app00.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:38:15.427
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:38:33.727
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:38:33.728
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:38:35.836
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020 --reset-target]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:39:38.788
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:39:39.505
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:39:39.508
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:39:41.612
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020 --reset-target]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:40:01.694
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:40:02.415
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:40:02.417
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:40:04.563
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:42:59.022
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:42:59.023
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:43:01.150
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:43:16.548
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:43:17.279
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:43:17.281
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:43:19.463
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020 --reset-target /cygdrive/c/intelFPGA_lite/18.1/20230614/software/app00/app00.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:43:21.941
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa020, --reset-target, /cygdrive/c/intelFPGA_lite/18.1/20230614/software/app00/app00.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:43:21.943
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:44:12.367
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:44:12.368
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:44:14.481
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:44:36.789
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:44:37.495
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:44:37.497
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:44:39.637
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:47:24.853
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:47:25.615
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:47:25.617
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa020]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:47:27.673
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa020 --reset-target]
+!SESSION 2023-06-14 19:49:50.093 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-14 19:50:02.820
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+!SESSION 2023-06-14 19:52:19.983 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-14 19:52:31.860
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-14 19:53:29.171
+!MESSAGE Indexed 'app00_0614_bsp' (74 sources, 153 headers) in 1.63 sec: 5,143 declarations; 7,881 references; 30 unresolved inclusions; 3 syntax errors; 60 unresolved names (0.46%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-14 19:53:29.615
+!MESSAGE Indexed 'app00_0614' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:56:23.602
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:56:23.615
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:56:25.622
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:57:05.414
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:57:05.705
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:57:05.706
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:57:07.693
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:57:32.614
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 19:57:32.916
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:57:32.917
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 19:57:34.845
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 20:01:17.200
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-14 20:01:17.511
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 20:01:17.512
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-14 20:01:19.560
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+!SESSION 2023-06-21 09:56:32.846 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-21 09:56:49.176
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 09:57:50.205
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 09:57:50.217
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 09:57:52.297
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 09:57:52.302
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 10:00:46.064
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 10:00:46.351
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 10:00:46.352
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 10:00:48.312
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 10:00:48.314
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 10:39:09.559
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 10:39:09.830
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 10:39:09.831
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 10:39:11.878
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 10:39:11.881
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:10:22.054
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:10:22.309
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:10:22.310
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:10:24.224
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:10:24.225
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:10:41.198
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:10:41.460
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:10:41.461
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:10:43.333
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:10:43.335
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:12:50.007
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:12:50.278
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:12:50.279
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:12:52.240
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:12:52.243
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:11.251
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:13:11.529
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:11.530
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:13:13.532
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:13.534
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:32.587
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:13:32.854
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:32.855
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:13:34.843
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:34.848
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:50.168
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:13:50.454
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:50.455
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:13:52.469
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:13:52.471
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:08.843
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:14:09.096
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:09.097
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:14:11.088
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:11.091
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:30.551
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:14:30.808
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:30.809
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:14:32.753
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:32.755
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:53.584
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:14:53.855
+!MESSAGE No Byte Stream Services found for Nios II Console View
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:53.856
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=Not Found]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-21 11:14:55.846
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=Not Found] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-21 11:14:55.850
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/app00_0614/app00_0614.elf]
+!SESSION 2023-06-30 15:06:47.963 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-06-30 15:07:04.552
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 15:21:30.591
+!MESSAGE Indexed 'PwmCtrl_bsp' (80 sources, 110 headers) in 1.15 sec: 3,307 declarations; 5,666 references; 43 unresolved inclusions; 6 syntax errors; 87 unresolved names (0.96%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 15:21:31.391
+!MESSAGE Indexed 'PwmCtrl' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 15:34:22.604
+!MESSAGE Indexed 'PwmCtrl_0_bsp' (80 sources, 152 headers) in 0.874 sec: 5,382 declarations; 8,454 references; 56 unresolved inclusions; 3 syntax errors; 121 unresolved names (0.87%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 15:34:23.116
+!MESSAGE Indexed 'PwmCtrl_0' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:37:34.851
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x9028]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-30 15:37:37.735
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x9028] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:37:37.960
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x9028 --reset-target /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_0/PwmCtrl_0.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-30 15:37:40.619
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x9028, --reset-target, /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_0/PwmCtrl_0.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-30 15:37:40.624
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 15:40:36.886
+!MESSAGE Indexed 'PwmCtrl_1_bsp' (80 sources, 152 headers) in 0.835 sec: 5,400 declarations; 8,362 references; 52 unresolved inclusions; 3 syntax errors; 97 unresolved names (0.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 15:40:37.217
+!MESSAGE Indexed 'PwmCtrl_1' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:41:29.487
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688107155]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:41:31.773
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688107155 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_1/PwmCtrl_1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:45:32.673
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688107155]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:45:34.974
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688107155 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_1/PwmCtrl_1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:46:35.658
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:46:36.345
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688107155]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:46:38.630
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688107155 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_1/PwmCtrl_1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:47:38.520
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:47:39.203
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688107155]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:47:41.483
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688107155 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_1/PwmCtrl_1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:55:48.633
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:55:49.335
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688107155]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:55:51.547
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688107155 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_1/PwmCtrl_1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:56:11.329
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:56:12.016
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688107155]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:56:14.268
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688107155 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_1/PwmCtrl_1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:56:32.928
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:56:33.606
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688107155]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 15:56:35.920
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688107155 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_1/PwmCtrl_1.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 16:00:20.229
+!MESSAGE Indexed 'PwmCtrl_BeStopped_bsp' (80 sources, 152 headers) in 0.922 sec: 5,382 declarations; 8,454 references; 56 unresolved inclusions; 3 syntax errors; 121 unresolved names (0.87%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-06-30 16:00:20.470
+!MESSAGE Indexed 'PwmCtrl_BeStopped' (1 sources, 0 headers) in 0.002 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:01:40.320
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:01:42.737
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:03:41.028
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:03:41.855
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:03:44.280
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:07:34.174
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:07:34.983
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:07:37.384
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:07:55.634
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:07:56.480
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:07:58.882
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:15:13.630
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:15:14.472
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:15:16.891
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:16:00.826
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:16:01.678
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:16:04.100
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:16:26.477
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:16:27.334
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:16:29.796
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:22:57.716
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-30 16:23:04.049
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-06-30 16:23:04.057
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:25:50.587
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:25:52.861
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:27:29.110
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:27:29.953
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:27:32.475
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:28:06.781
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:28:07.586
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9028 --id=0x0 --timestamp=1688108300]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-06-30 16:28:10.035
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9028 --id=0x0 --timestamp=1688108300 /cygdrive/c/intelFPGA_lite/18.1/de0nano_pwm/software/PwmCtrl_BeStopped/PwmCtrl_BeStopped.elf]
+!SESSION 2023-07-05 12:53:36.428 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 4 567 2023-07-05 12:53:57.987
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-05 12:53:57.987
+!MESSAGE Could not read metadata for 'PwmCtrl_BeStopped'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'PwmCtrl_BeStopped' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-05 12:53:57.987
+!MESSAGE The project description file (.project) for 'PwmCtrl_BeStopped' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-07-05 12:53:57.987
+!MESSAGE Could not read metadata for 'PwmCtrl_BeStopped_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'PwmCtrl_BeStopped_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-07-05 12:53:57.987
+!MESSAGE The project description file (.project) for 'PwmCtrl_BeStopped_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2023-07-05 12:54:08.164
+!MESSAGE The project description file (.project) for 'PwmCtrl_BeStopped' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-07-05 12:54:08.221
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-07-05 12:55:09.266
+!MESSAGE Indexed 'PwmCtrl00_bsp' (80 sources, 154 headers) in 2.04 sec: 5,545 declarations; 8,529 references; 33 unresolved inclusions; 3 syntax errors; 67 unresolved names (0.47%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-07-05 12:55:09.767
+!MESSAGE Indexed 'PwmCtrl00' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:28:54.590
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9050 --id=0x0 --timestamp=1688529153]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:28:56.984
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9050 --id=0x0 --timestamp=1688529153 /cygdrive/c/intelFPGA_lite/18.1/Motor_stop_experiment/PWM/software/PwmCtrl00/PwmCtrl00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:31:12.837
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9050 --id=0x0 --timestamp=1688529153]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:31:15.167
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9050 --id=0x0 --timestamp=1688529153 /cygdrive/c/intelFPGA_lite/18.1/Motor_stop_experiment/PWM/software/PwmCtrl00/PwmCtrl00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:32:42.310
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9050 --id=0x0 --timestamp=1688529153]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:32:44.579
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9050 --id=0x0 --timestamp=1688529153 /cygdrive/c/intelFPGA_lite/18.1/Motor_stop_experiment/PWM/software/PwmCtrl00/PwmCtrl00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:33:44.610
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:33:45.487
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9050 --id=0x0 --timestamp=1688529153]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:33:47.863
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9050 --id=0x0 --timestamp=1688529153 /cygdrive/c/intelFPGA_lite/18.1/Motor_stop_experiment/PWM/software/PwmCtrl00/PwmCtrl00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:46:27.289
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:46:28.052
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9050 --id=0x0 --timestamp=1688529153]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:46:30.413
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9050 --id=0x0 --timestamp=1688529153 /cygdrive/c/intelFPGA_lite/18.1/Motor_stop_experiment/PWM/software/PwmCtrl00/PwmCtrl00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:51:49.028
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:51:49.705
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9050 --id=0x0 --timestamp=1688529153]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:51:51.994
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9050 --id=0x0 --timestamp=1688529153 /cygdrive/c/intelFPGA_lite/18.1/Motor_stop_experiment/PWM/software/PwmCtrl00/PwmCtrl00.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:52:15.741
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:52:16.445
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9050 --id=0x0 --timestamp=1688529153]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-07-05 13:52:18.772
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9050 --id=0x0 --timestamp=1688529153 /cygdrive/c/intelFPGA_lite/18.1/Motor_stop_experiment/PWM/software/PwmCtrl00/PwmCtrl00.elf]
+!SESSION 2023-12-29 11:59:56.522 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 4 567 2023-12-29 12:00:06.675
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-12-29 12:00:06.675
+!MESSAGE Could not read metadata for 'PwmCtrl00'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'PwmCtrl00' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-12-29 12:00:06.675
+!MESSAGE The project description file (.project) for 'PwmCtrl00' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2023-12-29 12:00:06.675
+!MESSAGE Could not read metadata for 'PwmCtrl00_bsp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'PwmCtrl00_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:902)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:882)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:733)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1588)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2386)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2157)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:941)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:318)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:454)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:531)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:324)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:327)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:36)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:352)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:344)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:160)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2023-12-29 12:00:06.675
+!MESSAGE The project description file (.project) for 'PwmCtrl00_bsp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.core.resources 4 567 2023-12-29 12:00:14.761
+!MESSAGE The project description file (.project) for 'PwmCtrl00' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-29 12:00:16.509
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-29 12:01:24.521
+!MESSAGE Indexed 'PWMCtrl_bsp' (80 sources, 124 headers) in 1.21 sec: 3,202 declarations; 5,899 references; 83 unresolved inclusions; 6 syntax errors; 165 unresolved names (1.8%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-12-29 12:01:25.426
+!MESSAGE Indexed 'PWMCtrl' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 4 0 2023-12-29 13:08:50.809
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:367)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.searchAndLaunch(AbstractNios2LaunchShortcut.java:291)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:91)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.run(LaunchShortcutAction.java:74)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:123)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:788)
+	at org.eclipse.jface.action.ActionContributionItem$9.handleEvent(ActionContributionItem.java:1293)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.ui 4 0 2023-12-29 13:15:28.113
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:367)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.searchAndLaunch(AbstractNios2LaunchShortcut.java:291)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:91)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.run(LaunchShortcutAction.java:74)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:123)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:788)
+	at org.eclipse.jface.action.ActionContributionItem$9.handleEvent(ActionContributionItem.java:1293)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.ui 4 0 2023-12-29 13:15:47.368
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:367)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.searchAndLaunch(AbstractNios2LaunchShortcut.java:291)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:91)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.run(LaunchShortcutAction.java:74)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:123)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:788)
+	at org.eclipse.jface.action.ActionContributionItem$9.handleEvent(ActionContributionItem.java:1293)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.cdt.debug.core 4 103 2023-12-29 13:16:06.805
+!MESSAGE Project PwmCtrl00 does not exist. Please check that your launch configuration specifies a valid project in your workspace.
+
+!ENTRY org.eclipse.ui 4 0 2023-12-29 13:17:23.347
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:367)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.searchAndLaunch(AbstractNios2LaunchShortcut.java:291)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2LaunchShortcut.launch(AbstractNios2LaunchShortcut.java:91)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:431)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.run(LaunchShortcutAction.java:74)
+	at org.eclipse.debug.internal.ui.actions.LaunchShortcutAction.runWithEvent(LaunchShortcutAction.java:123)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:788)
+	at org.eclipse.jface.action.ActionContributionItem$9.handleEvent(ActionContributionItem.java:1293)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.jface 4 2 2023-12-29 13:17:37.571
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.ui.ConnectionTab.initializeFrom(ConnectionTab.java:65)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:208)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:766)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer$8.run(LaunchConfigurationTabGroupViewer.java:637)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:654)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:615)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:590)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.handleLaunchConfigurationSelectionChanged(LaunchConfigurationsDialog.java:960)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog$3.selectionChanged(LaunchConfigurationsDialog.java:573)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:877)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:874)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1734)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1093)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:388)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.doInitialTreeSelection(LaunchConfigurationsDialog.java:613)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.initializeContent(LaunchConfigurationsDialog.java:1101)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.createContents(LaunchConfigurationsDialog.java:446)
+	at org.eclipse.jface.window.Window.create(Window.java:430)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1096)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.create(LaunchConfigurationsDialog.java:374)
+	at org.eclipse.jface.window.Window.open(Window.java:792)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1154)
+	at org.eclipse.debug.ui.DebugUITools$2.run(DebugUITools.java:619)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:627)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:560)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:82)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.runWithEvent(OpenLaunchDialogAction.java:91)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:237)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:228)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY org.eclipse.jface 4 2 2023-12-29 13:17:55.267
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.NullPointerException
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.setConnectionChoice(SystemConsoleConnectionModel.java:1294)
+	at com.altera.sbtgui.launch.ConfigurationUtils.syncModelToLaunchConfiguration(ConfigurationUtils.java:207)
+	at com.altera.sbtgui.launch.hardware.ui.ConnectionTab.initializeFrom(ConnectionTab.java:65)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupWrapper.initializeFrom(LaunchConfigurationTabGroupWrapper.java:208)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.displayInstanceTabs(LaunchConfigurationTabGroupViewer.java:766)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer$8.run(LaunchConfigurationTabGroupViewer.java:637)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.inputChanged(LaunchConfigurationTabGroupViewer.java:654)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput0(LaunchConfigurationTabGroupViewer.java:615)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.setInput(LaunchConfigurationTabGroupViewer.java:590)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.handleLaunchConfigurationSelectionChanged(LaunchConfigurationsDialog.java:960)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog$3.selectionChanged(LaunchConfigurationsDialog.java:573)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:877)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:173)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:874)
+	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1243)
+	at org.eclipse.jface.viewers.StructuredViewer$5.widgetSelected(StructuredViewer.java:1269)
+	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:265)
+	at org.eclipse.jface.util.OpenStrategy.access$5(OpenStrategy.java:259)
+	at org.eclipse.jface.util.OpenStrategy$1$2.run(OpenStrategy.java:440)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.open(LaunchConfigurationsDialog.java:1154)
+	at org.eclipse.debug.ui.DebugUITools$2.run(DebugUITools.java:619)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:627)
+	at org.eclipse.debug.ui.DebugUITools.openLaunchConfigurationDialogOnGroup(DebugUITools.java:560)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.run(OpenLaunchDialogAction.java:82)
+	at org.eclipse.debug.ui.actions.OpenLaunchDialogAction.runWithEvent(OpenLaunchDialogAction.java:91)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:237)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:228)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+!SESSION 2023-12-29 13:18:53.618 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-29 13:18:57.454
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2023-12-29 13:19:04.762
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:22:17.235
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x90c0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:22:20.017
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x90c0] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:22:20.265
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x90c0 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:22:23.469
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x90c0, /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:22:23.474
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:23:10.720
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x90c0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:23:13.590
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x90c0] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:23:13.828
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x90c0 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:23:17.169
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x90c0, /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:23:17.170
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:26:18.912
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x90c0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:26:21.737
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x90c0] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:26:21.962
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x90c0 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:26:25.105
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x90c0, /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 13:26:25.108
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:27:24.475
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:27:26.862
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:28:46.115
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:28:48.376
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:30:01.231
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:30:03.576
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:31:53.093
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 13:31:55.420
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:13:10.538
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:13:12.881
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:21:27.900
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:21:30.225
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:23:48.892
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:23:51.224
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:24:25.693
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:24:28.026
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:35:16.608
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90c0 --id=0x0 --timestamp=1703823204]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:35:18.946
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90c0 --id=0x0 --timestamp=1703823204 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 14:52:30.620
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "0", expected: "1703823204".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 14:52:30.625
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "0", expected: "1703823204".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:52:48.028
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90d0 --id=0x0 --timestamp=1703828679]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:52:50.352
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90d0 --id=0x0 --timestamp=1703828679 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:53:44.763
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:53:45.513
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x90d0 --id=0x0 --timestamp=1703828679]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2023-12-29 14:53:47.779
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x90d0 --id=0x0 --timestamp=1703828679 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 15:02:25.487
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1703829321", expected: "1703828679".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2023-12-29 15:02:25.490
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: System timestamp mismatch - connected: "1703829321", expected: "1703828679".
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:631)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2024-01-10 11:35:08.555 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-01-10 11:35:34.084
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:32:29.134
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1704857198]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:32:31.010
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x9100, --id=0x0, --timestamp=1704857198] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:32:31.664
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1704857198 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:32:33.932
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x9100, --id=0x0, --timestamp=1704857198, /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:32:33.933
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:33:13.013
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1704857198]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:33:14.775
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x9100, --id=0x0, --timestamp=1704857198] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:33:15.353
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1704857198 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:33:17.484
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0x9100, --id=0x0, --timestamp=1704857198, /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf] return code: 8
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:33:17.485
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:33:45.108
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-1]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1704857198]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:33:47.706
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-1]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1704857198 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:35:45.039
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-1]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1704857198]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 12:35:47.830
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-1]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1704857198 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:45:07.646
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-10 12:45:07.649
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2024-01-10 14:50:40.209 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-01-10 14:50:53.209
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 15:20:57.920
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1704867229]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 15:21:00.214
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1704867229 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 15:27:32.027
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1704867229]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-10 15:27:34.335
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1704867229 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+!SESSION 2024-01-14 12:48:35.782 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-01-14 12:50:21.497
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-14 12:56:05.341
+!MESSAGE Indexed 'PWMCtrl_test_bsp' (80 sources, 94 headers) in 1.07 sec: 2,601 declarations; 4,678 references; 103 unresolved inclusions; 6 syntax errors; 183 unresolved names (2.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-14 12:56:06.116
+!MESSAGE Indexed 'PWMCtrl_test' (1 sources, 0 headers) in 0.003 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 13:10:06.716
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 13:10:09.061
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-14 14:06:04.105
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-14 14:06:04.134
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:07:12.501
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:07:15.202
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:11:59.149
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:12:01.770
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:15:11.449
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:15:14.138
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:16:24.024
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:16:24.866
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:16:27.579
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:17:27.043
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 14:17:29.668
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:10:43.157
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-14 15:10:49.044
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2024-01-14 15:10:49.101
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:11:32.298
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:11:35.012
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:07.320
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:08.136
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:10.730
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:27.140
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:27.971
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:30.694
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:48.290
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:49.107
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:12:51.764
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:08.985
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:09.801
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:12.444
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:26.683
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:27.550
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:30.185
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:48.804
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:49.676
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:13:52.311
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:18:14.243
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:18:16.857
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:18:44.447
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:18:45.301
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:18:47.911
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:02.936
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:03.780
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:06.486
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:20.353
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:21.179
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:23.785
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:40.988
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:41.787
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:19:44.405
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:20:07.061
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:20:07.916
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 15:20:10.546
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:01:37.181
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:01:39.491
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:11.590
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:12.365
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:14.682
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:33.342
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:34.035
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:36.331
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:53.056
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:53.813
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:02:56.211
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:12.314
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:13.049
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:15.349
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:31.195
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:31.938
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:34.200
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:48.056
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:48.823
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:03:51.096
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:04:12.977
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:04:13.710
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:04:16.094
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl_test/PWMCtrl_test.elf]
+!SESSION 2024-01-14 16:30:47.464 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/18.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2024-01-14 16:31:09.291
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-14 16:32:21.801
+!MESSAGE Indexed 'PWMCtrl_bsp' (80 sources, 62 headers) in 0.435 sec: 1,190 declarations; 2,486 references; 110 unresolved inclusions; 6 syntax errors; 191 unresolved names (4.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-01-14 16:32:23.014
+!MESSAGE Indexed 'PWMCtrl' (1 sources, 0 headers) in 0.009 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:46:41.216
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:46:43.413
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:47:32.427
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:47:34.601
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:49:36.562
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 16:49:38.781
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:06:05.446
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:06:07.703
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:06:26.820
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:06:29.077
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:07:17.045
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:07:17.759
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:07:19.910
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:08:19.402
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:08:21.675
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v2/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:09:57.934
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:09:58.617
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:10:00.876
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:13:03.983
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:13:06.157
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:14:23.033
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:14:23.746
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:14:26.037
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:20:51.665
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705203948]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:20:53.883
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705203948 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:25:15.250
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705220283]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:25:17.505
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705220283 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:37:06.224
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:37:06.919
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705220283]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:37:09.194
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705220283 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:44:08.576
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705220283]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:44:10.830
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705220283 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:48:41.170
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705220283]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:48:43.345
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705220283 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:50:24.358
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705220283]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-14 17:50:26.550
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705220283 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-16 11:33:28.333
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x9100 --id=0x0 --timestamp=1705220283]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2024-01-16 11:33:30.605
+!MESSAGE Executing: [C:/intelfpga_lite/18.1/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x9100 --id=0x0 --timestamp=1705220283 --reset-target /cygdrive/c/FPGAlite_Hardware/18.1/steel_control_experiment/PWM_v3/software/PWMCtrl/PWMCtrl.elf]

@@ -1,0 +1,5 @@
+imu_flag_imudata_update
+IMUセンサデータが更新されるたびにPID制御を更新する
+
+imu_flag_200kHz
+imuセンサデータは80Hzで更新されるが200kHzでPID制御を更新する

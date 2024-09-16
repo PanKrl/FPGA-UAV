@@ -1,0 +1,48 @@
+17:12:33 **** Incremental Build of configuration Nios II for project gps_prt_small ****
+make all 
+Info: Building ../gps_prt_small_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../gps_prt_small_bsp/
+[BSP build complete]
+Info: Compiling gps_prt_small.c to obj/default/gps_prt_small.o
+nios2-elf-gcc -xc -MP -MMD -c -I../gps_prt_small_bsp//HAL/inc -I../gps_prt_small_bsp/ -I../gps_prt_small_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/gps_prt_small.o gps_prt_small.c
+gps_prt_small.c: In function 'main':
+gps_prt_small.c:63:5: warning: statement with no effect [-Wunused-value]
+     (6500);
+     ^
+gps_prt_small.c:88:13: warning: unused variable 'lon_sec' [-Wunused-variable]
+      double lon_sec = NMEA2S(atof(lon));
+             ^
+gps_prt_small.c:87:10: warning: unused variable 'lon_min' [-Wunused-variable]
+      int lon_min = NMEA2M(atof(lon));
+          ^
+gps_prt_small.c:86:10: warning: unused variable 'lon_deg' [-Wunused-variable]
+      int lon_deg = NMEA2D(atof(lon));
+          ^
+gps_prt_small.c:84:13: warning: unused variable 'lat_sec' [-Wunused-variable]
+      double lat_sec=NMEA2S(atof(lat));
+             ^
+gps_prt_small.c:83:10: warning: unused variable 'lat_min' [-Wunused-variable]
+      int lat_min=NMEA2M(atof(lat));
+          ^
+gps_prt_small.c:82:10: warning: unused variable 'lat_deg' [-Wunused-variable]
+      int lat_deg=NMEA2D(atof(lat));
+          ^
+Info: Linking gps_prt_small.elf
+nios2-elf-g++  -T'../gps_prt_small_bsp//linker.x' -msys-crt0='../gps_prt_small_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../gps_prt_small_bsp/  -msmallc  -Wl,-Map=gps_prt_small.map   -Os -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o gps_prt_small.elf obj/default/gps_prt_small.o -lm -msys-lib=m
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: gps_prt_small.elf section `.text' will not fit in region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0xae44 of gps_prt_small.elf section `.rwdata' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0xb078 of gps_prt_small.elf section `.bss' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0xae44 of gps_prt_small.elf section `.rwdata' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0xb078 of gps_prt_small.elf section `.bss' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: region `RAM' overflowed by 18792 bytes
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-strtod.o): In function `_strtod_r':
+/build/arc/temp/823101626/ACDS_lwr/ip/sopc/app/gnu/BUILD/gnu/build-newlib_small.nios2-elf.x86_64-w64-mingw32/nios2-elf/mno-hw-mul/newlib/libc/stdlib/../../../../../../src/newlib-2.2/newlib/libc/stdlib/strtod.c:341: undefined reference to `_localeconv_r'
+/build/arc/temp/823101626/ACDS_lwr/ip/sopc/app/gnu/BUILD/gnu/build-newlib_small.nios2-elf.x86_64-w64-mingw32/nios2-elf/mno-hw-mul/newlib/libc/stdlib/../../../../../../src/newlib-2.2/newlib/libc/stdlib/strtod.c:342: undefined reference to `_localeconv_r'
+/build/arc/temp/823101626/ACDS_lwr/ip/sopc/app/gnu/BUILD/gnu/build-newlib_small.nios2-elf.x86_64-w64-mingw32/nios2-elf/mno-hw-mul/newlib/libc/stdlib/../../../../../../src/newlib-2.2/newlib/libc/stdlib/strtod.c:345: undefined reference to `_localeconv_r'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib/mno-hw-mul\libsmallc.a(lib_a-gdtoa-gethex.o): In function `__gethex':
+/build/arc/temp/823101626/ACDS_lwr/ip/sopc/app/gnu/BUILD/gnu/build-newlib_small.nios2-elf.x86_64-w64-mingw32/nios2-elf/mno-hw-mul/newlib/libc/stdlib/../../../../../../src/newlib-2.2/newlib/libc/stdlib/gdtoa-gethex.c:162: undefined reference to `_localeconv_r'
+collect2.exe: error: ld returned 1 exit status
+make: *** [gps_prt_small.elf] Error 1
+
+17:12:34 Build Finished (took 888ms)
+

@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "sys/alt_stdio.h"
+#include "system.h"
+#include <string.h>
+#include "altera_avalon_pio_regs.h"
+#include "altera_avalon_uart_regs.h"
+#include "sys/alt_irq.h"
+#include <math.h>
+
+
+int sbus_data[25];
+int ch;
+int flg;
+
+void sbus_irq_handler(){
+	short data;
+	ch= IORD_ALTERA_AVALON_UART_RXDATA(UART1_BASE);
+	if(ch==0x0f&&flg==0){
+		sbus_data[flg]=ch;
+		flg++;
+	}
+	else if(flg>0){
+		sbus_data[flg]=ch;
+		flg++;
+	}
+	switch(flg){
+	case 3:
+        data=(sbus_data[1]|(sbus_data[2]<<8)&0x07ff);
+        printf("%04d ",data);
+        break;
+
+    case 4:
+        data=(sbus_data[3]<<5|sbus_data[2]>>3)&0x07ff;
+        printf("%04d ",data);
+        break;
+
+    case 6:
+        data=(sbus_data[3]>>6|sbus_data[4]<<2|sbus_data[5]<<10)&0x07ff;
+        printf("%04d ",data);
+        break;
+
+    case 7:
+        data=(sbus_data[6]<<7|sbus_data[5]>>1)&0x07ff;
+        printf("%04d ",data);
+        break;
+
+    case 8:
+        data=(sbus_data[7]<<4|sbus_data[6]>>4)&0x07ff;
+        printf("%04d ",data);
+        break;
+
+    case 10:
+        data=(sbus_data[7]>>7|sbus_data[8]<<1|sbus_data[9]<<9)&0x07ff;
+        printf("%04d ",data);
+        break;
+	}
+	if(flg==25){
+		printf("\n");
+		flg==0;
+	}
+}
+
+int main(){
+	printf("Start to read SBUS Protocol!\n");
+	alt_irq_register(UART1_IRQ,0,sbus_irq_handler);
+
+return 0;
+
+}
+

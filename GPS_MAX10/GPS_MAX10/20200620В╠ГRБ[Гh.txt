@@ -1,0 +1,53 @@
+//2020/06/20 Quartus
+
+module Secure_Processor(
+CLK,
+RST_N,
+sw,//停止のトリガー
+stop//停止信号
+);
+
+input CLK;
+input RST_N;
+input sw;
+output stop;
+
+
+
+    nios2_security u0 (
+        .clk_clk       (CLK),       //   clk.clk
+        .gps_export    (sw),    //   gps.export
+        .reset_reset_n (RST_N), // reset.reset_n
+        .stop_export   (stop)    //  stop.export
+    );
+
+endmodule 
+
+--------------------------------------------------------
+//2020/06/21 NiosII Secure Processor
+
+#include "sys/alt_stdio.h"
+#include "system.h"
+#include "altera_avalon_pio_regs.h"
+
+
+int main()
+{
+  int sw;
+  int stop=0x0;
+  IOWR_ALTERA_AVALON_PIO_DATA(STOP_BASE,stop);
+  alt_putstr("Start Secure Processor\n");
+
+  while (1){
+	  sw=IORD_ALTERA_AVALON_PIO_DATA(SW_BASE);
+
+	  if(sw==0x0){
+		 stop=0x1;
+		  IOWR_ALTERA_AVALON_PIO_DATA(STOP_BASE,stop);
+		  alt_putstr("STOP!\n");
+		  break;
+	  }
+  }
+
+  return 0;
+}

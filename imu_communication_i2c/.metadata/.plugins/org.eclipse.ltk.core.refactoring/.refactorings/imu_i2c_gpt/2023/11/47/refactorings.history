@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;imu_i2c_gpt/hello_world.c&apos; to &apos;imu_i2c_gpt.c&apos;" description="Rename resource &apos;hello_world.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hello_world.c" name="imu_i2c_gpt.c" stamp="1700633272933" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;imu_i2c_gpt/inu_i2c.h&apos; to &apos;imu_i2c.h&apos;" description="Rename resource &apos;inu_i2c.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="inu_i2c.h" name="imu_i2c.h" stamp="1700637468273" updateReferences="true"/>
+</session>

@@ -1,0 +1,25 @@
+15:33:15 **** Build of configuration Nios II for project PwmCtrl ****
+make all 
+Info: Building ../PwmCtrl_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../PwmCtrl_bsp/
+[BSP build complete]
+Info: Compiling PwmCtrl.c to obj/default/PwmCtrl.o
+nios2-elf-gcc -xc -MP -MMD -c -I../PwmCtrl_bsp//HAL/inc -I../PwmCtrl_bsp/ -I../PwmCtrl_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/PwmCtrl.o PwmCtrl.c
+PwmCtrl.c: In function 'main':
+PwmCtrl.c:32:13: warning: unknown conversion type character 0xa in format [-Wformat=]
+      printf("%d%\n",cnt);
+             ^
+PwmCtrl.c:32:13: warning: unknown conversion type character 0xa in format [-Wformat=]
+Info: Linking PwmCtrl.elf
+nios2-elf-g++  -T'../PwmCtrl_bsp//linker.x' -msys-crt0='../PwmCtrl_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../PwmCtrl_bsp/   -Wl,-Map=PwmCtrl.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o PwmCtrl.elf obj/default/PwmCtrl.o -lm -msys-lib=m
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: PwmCtrl.elf section `.text' will not fit in region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x1595c of PwmCtrl.elf section `.rwdata' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x175a8 of PwmCtrl.elf section `.bss' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x1595c of PwmCtrl.elf section `.rwdata' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: address 0x175a8 of PwmCtrl.elf section `.bss' is not within region `RAM'
+c:/intelfpga_lite/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe: region `RAM' overflowed by 62888 bytes
+collect2.exe: error: ld returned 1 exit status
+make: *** [PwmCtrl.elf] Error 1
+
+15:33:16 Build Finished (took 689ms)
+

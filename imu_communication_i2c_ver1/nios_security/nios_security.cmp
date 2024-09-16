@@ -1,0 +1,20 @@
+	component nios_security is
+		port (
+			clk_clk       : in  std_logic                     := 'X'; -- clk
+			duty_1_export : out std_logic_vector(31 downto 0);        -- export
+			duty_2_export : out std_logic_vector(31 downto 0);        -- export
+			duty_3_export : out std_logic_vector(31 downto 0);        -- export
+			duty_4_export : out std_logic_vector(31 downto 0);        -- export
+			i2c_sda_in    : in  std_logic                     := 'X'; -- sda_in
+			i2c_scl_in    : in  std_logic                     := 'X'; -- scl_in
+			i2c_sda_oe    : out std_logic;                            -- sda_oe
+			i2c_scl_oe    : out std_logic;                            -- scl_oe
+			led_export    : out std_logic_vector(31 downto 0);        -- export
+			period_export : out std_logic_vector(31 downto 0);        -- export
+			reset_reset_n : in  std_logic                     := 'X'; -- reset_n
+			stop_export   : out std_logic_vector(31 downto 0);        -- export
+			uart1_rxd     : in  std_logic                     := 'X'; -- rxd
+			uart1_txd     : out std_logic                             -- txd
+		);
+	end component nios_security;
+

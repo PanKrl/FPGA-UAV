@@ -1,0 +1,37 @@
+//IMU_communication_20231106_2
+
+#include"imu_uart.h"
+
+
+
+
+int main(){
+	u8 quat_w,quat_x,quat_y,quat_z,acc_x,acc_y,acc_z;
+	printf("I2C_START\n");
+	IMU_init();
+
+	while(1){
+		//acc
+		acc_x=IMU_READ(ACC_X_LSB)|(IMU_READ(ACC_X_MSB)<<8);
+		acc_y=IMU_READ(ACC_Y_LSB)|(IMU_READ(ACC_Y_MSB)<<8);
+		acc_z=IMU_READ(ACC_Z_LSB)|(IMU_READ(ACC_Z_MSB)<<8);
+        printf("acc_x=%04d ",acc_x);
+        printf("acc_y=%04d ",acc_y);
+        printf("acc_z=%04d ",acc_z);
+        printf("\n");
+
+        //quaternion
+//		quat_w=IMU_READ(QUA_W_LSB)|(IMU_READ(QUA_W_MSB)<<8);
+//		quat_x=IMU_READ(QUA_X_LSB)|(IMU_READ(QUA_X_MSB)<<8);
+//		quat_y=IMU_READ(QUA_Y_LSB)|(IMU_READ(QUA_Y_MSB)<<8);
+//		quat_z=IMU_READ(QUA_Z_LSB)|(IMU_READ(QUA_Z_MSB)<<8);
+//        printf("quat_w=%04d ",quat_w);
+//        printf("quat_x=%04d ",quat_x);
+//        printf("quat_y=%04d ",quat_y);
+//        printf("quat_z=%04d ",quat_z);
+//        printf("\n");
+//        usleep(interval);
+
+	}
+return 0;
+}
